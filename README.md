@@ -42,7 +42,7 @@ This column, entitled "Live," reports on various in-person events. Contents from
 供稿指南 / Contribution Guide
 ---------------------------
 
-如果您有意供稿，请使用“Pull Requests”功能并遵守如下文件名及目录格式：
+如果您有意供稿，请使用“拉取请求 (Pull Requests)”功能并遵守如下文件名及目录格式：
 
 If you would like to submit a news entry, please use the "Pull Requests" function and follow the following file naming and pathing conventions:
 
