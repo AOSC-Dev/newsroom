@@ -1,7 +1,7 @@
 社区资讯库 / Newsroom
 ===================
 
-本仓库用于存放编辑中和已发布的社区新闻，如双周报、专题和访谈等栏目的文字稿，面向社区门户和各语言公众平台。
+本仓库用于存放编辑中和已发布的社区新闻，如双周报、专题和访谈等栏目的文字稿，面向社区门户和各语言公众媒体平台。
 
 This repository stores community newsletters, special issues, interviews, etc. bound for mass media platforms in various languages.
 
