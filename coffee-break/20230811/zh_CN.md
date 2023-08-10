@@ -35,7 +35,7 @@ Omakase 基于来自 Debian 的 [APT](https://wiki.debian.org/zh_CN/Apt) 开发�
 
 ### AOSC OS/Retro 系统发布
 
-如果您手上还有舍不得扔掉的古董电脑，我们针对老旧设备优化的 AOSC OS/Retro 系统可助您重新为这些设备“续命”，找到新的用途。七月底，我们发布了 AOSC OS/Retro 的正式版，目前支持 32 位 x86 设备。只需 128MiB 内存、3GiB 硬盘空间和 VGA 显示卡，您就可以享受完整的 AOSC OS/Retro 体验（小声说一句：如果您愿意手动安装基本系统，AOSC OS/Retro 在搭载 32MiB 内存、500MiB 硬盘的 486 机器上就能运行）！
+如果您手上还有舍不得扔掉的古董电脑，我们针对老旧设备优化的 AOSC OS/Retro 系统可助您重新为这些设备“续命”，找到新的用途。七月底，我们发布了 AOSC OS/Retro 的正式版，目前支持 32 位 x86 设备。只需 128 MiB 内存、3 GiB 硬盘空间和 VGA 显示卡，您就可以享受完整的 AOSC OS/Retro 体验（小声说一句：如果您愿意手动安装基本系统，AOSC OS/Retro 在搭载 32 MiB 内存、500 MiB 硬盘的 486 机器上就能运行）！
 
 ![retro-screenshot](/coffee-break/20230811/imgs/retro.png)
 
@@ -81,8 +81,8 @@ sudo oma topics
 
 得益于社区内朋友们的热心捐助，我们即将上线两台 AArch64 构建服务器：
 
-- 联想 ThinkSystem SR358F V2，搭载 64 核飞腾 FT2000+ 处理器，128GiB 内存
-- 华为 TaiShan 200，搭载 64 核鲲鹏 920 处理器，256GiB 内存
+- 联想 ThinkSystem SR358F V2，搭载 64 核飞腾 FT2000+ 处理器，128 GiB 内存
+- 华为 TaiShan 200，搭载 64 核鲲鹏 920 处理器，256 GiB 内存
 
 上线后，这些服务器将大幅度提高 AOSC OS AArch64 架构版本的维护效率。
 
