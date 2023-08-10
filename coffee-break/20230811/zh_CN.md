@@ -29,7 +29,7 @@ Omakase 基于来自 Debian 的 [APT](https://wiki.debian.org/zh_CN/Apt) 开发�
 
 虽说 AOSC OS 的丰满尺寸早已臭名昭著，但除了确保系统特性齐全和组件简化外，优化系统尺寸亦是改善用户体验的重要一环。
 
-月初，杨欣辉 (GitHub: [@Cyanoxygen](https://github.com/Cyanoxygen)) 针对 LiveKit（AOSC OS 标准启动与安装环境）的生成脚本[提交了一项改进](https://github.com/AOSC-Dev/aosc-mklive/commit/8339e1879cfe113bedcc3b30539057be50315677)，删除不常用字体和文档数据。通过此项改进，后续发布的 LiveKit 镜像将减重约 200~300MiB。
+月初，杨欣辉 (GitHub: [@Cyanoxygen](https://github.com/Cyanoxygen)) 针对 LiveKit（AOSC OS 标准启动与安装环境）的生成脚本[提交了一项改进](https://github.com/AOSC-Dev/aosc-mklive/commit/8339e1879cfe113bedcc3b30539057be50315677)，删除不常用字体和文档数据。通过此项改进，后续发布的 LiveKit 镜像将减重约 200 – 300 MiB。
 
 ![livekit-screenshot](/coffee-break/20230811/imgs/livekit.png)
 
@@ -90,7 +90,7 @@ sudo oma topics
 
 ### 社区重启外宣工作
 
-自从 2013 年在 Linux 贴吧引发冲突后，社区基本暂停了所有外联和宣发工作。2023 年，考虑到社区项目和文化等日趋成熟，我们决定重启外联和宣传工作，在更广阔的天地寻找志同道合的朋友。
+自从 2013 年在百度贴吧 Linux 吧引发冲突后，社区基本暂停了所有外联和宣发工作。2023 年，考虑到社区项目和文化等日趋成熟，我们决定重启外联和宣传工作，在更广阔的天地寻找志同道合的朋友。
 
 您阅读的本期半月刊即是我们外宣工作的一部分，我们的文字宣传栏目如下：
 
