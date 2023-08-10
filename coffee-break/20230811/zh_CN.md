@@ -1,5 +1,5 @@
-安记冰室·创刊号
-================
+安记冰室・八月上｜创刊号
+========================
 
 “你地饮滴咩呀——”
 
@@ -27,19 +27,19 @@ Omakase 基于来自 Debian 的 [APT](https://wiki.debian.org/zh_CN/Apt) 开发�
 
 ### LiveKit 尺寸优化
 
-虽说 AOSC OS 的丰满尺寸早已臭名昭著，但除了确保系统特性齐全和组件简化外，优化系统尺寸亦是改善用户体验的重要一环。
+虽说 AOSC OS 的丰满尺寸早已“臭名昭著”，但除了确保系统特性齐全和组件简化外，优化系统尺寸亦是改善用户体验的重要一环。
 
 月初，杨欣辉 (GitHub: [@Cyanoxygen](https://github.com/Cyanoxygen)) 针对 LiveKit（AOSC OS 标准启动与安装环境）的生成脚本[提交了一项改进](https://github.com/AOSC-Dev/aosc-mklive/commit/8339e1879cfe113bedcc3b30539057be50315677)，删除不常用字体和文档数据。通过此项改进，后续发布的 LiveKit 镜像将减重约 200 – 300 MiB。
 
 ![livekit-screenshot](/coffee-break/20230811/imgs/livekit.png)
 
-### AOSC OS/Retro 系统发布
+### AOSC OS/Retro 正式版系统发布
 
-如果您手上还有舍不得扔掉的古董电脑，我们针对老旧设备优化的 AOSC OS/Retro 系统可助您重新为这些设备“续命”，找到新的用途。七月底，我们发布了 AOSC OS/Retro 的正式版，目前支持 32 位 x86 设备。只需 128 MiB 内存、3 GiB 硬盘空间和 VGA 显示卡，您就可以享受完整的 AOSC OS/Retro 体验（小声说一句：如果您愿意手动安装基本系统，AOSC OS/Retro 在搭载 32 MiB 内存、500 MiB 硬盘的 486 机器上就能运行）！
+如果您手上还有舍不得扔掉的古董电脑，我们针对老旧设备优化的 AOSC OS/Retro 系统可助您的古董电脑发挥余热，找到新的用途。七月底，我们发布了支持 32 位 x86 设备的 AOSC OS/Retro 正式版，目前，只需 128 MiB 内存、3 GiB 硬盘空间和 VGA 显示卡，您就可以享受完整的 AOSC OS/Retro 体验（小声说一句：如果您愿意手动安装基本系统，AOSC OS/Retro 在搭载 32 MiB 内存、500 MiB 硬盘的 486 机器上就能运行）！
 
 ![retro-screenshot](/coffee-break/20230811/imgs/retro.png)
 
-兼容其他架构的 AOSC OS/Retro 将于今年内陆续发布，为您手上各类稀奇古怪的老旧设备提供持续软件支持，敬请期待！
+兼容其他架构的 AOSC OS/Retro 正式版系统亦将于年内陆续发布，为您手上各类稀奇古怪的老旧设备提供持续软件支持，敬请期待！
 
 ### 更新速览
 
@@ -104,7 +104,6 @@ sudo oma topics
 - 微信公众号“安同开源”
 - Bilibili 帐号“安同开源社区”
 - 知乎机构号“安同开源社区”
-- 微博 @安同开源
 - Twitter/X @aosc_dev_cn 及 @aosc_dev（英文）
 
 此外，我们正寻求国内开源及 Linux 相关媒体的朋友合作，一起将我社的工作和文化广而告之。
@@ -149,7 +148,7 @@ AOSC 是由志愿者在业余时间组织和驱动的社区，想法众多但人
 
 ![qq](/coffee-break/20230811/imgs/qq.jpg)
 
-### Telegram 频道
+### Telegram 群组
 
 ![telegram](/coffee-break/20230811/imgs/telegram.png)
 
