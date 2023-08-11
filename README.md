@@ -8,11 +8,11 @@ This repository stores community newsletters, special issues, interviews, etc. b
 板块与栏目 / Columns
 ------------------
 
-### 双周报 / Bi-Weekly Newsletters
+### 双周报 / Semimonthly Newsletters
 
 双周报取题“安记冰室”，旨在以轻松可及的方式，以图文形式介绍过去两周的开发进展、社区事务与近期社区内外活动资讯。此外，本栏目还用于发布与社团及行业人士及代表的访谈录，以特辑形式发布。本栏目不发表评论性内容。
 
-The Bi-Weekly Newsletter, entitled "Coffee Break," summarizes development updates, community matters, and upcoming events in an accessible and fun fashion. The newsletters consists of an appropriate mix of text and media. This column is also used to publish interview transcripts with individuals and representatives from various groups, clubs, and industries and will be published as special issues. This column does not contain op-ed-type contents.
+The semimonthly newsletter, entitled "Coffee Break," summarizes development updates, community matters, and upcoming events in an accessible and fun fashion. The newsletters consists of an appropriate mix of text and media. This column is also used to publish interview transcripts with individuals and representatives from various groups, clubs, and industries and will be published as special issues. This column does not contain op-ed-type contents.
 
 ### 信创及稀见软硬件专题 / Rare and Unusual Hardware
 
