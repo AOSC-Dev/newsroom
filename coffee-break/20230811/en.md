@@ -1,5 +1,5 @@
-Coffee Break: Issue 2023-08-15
-==============================
+Coffee Break: August Issue ½
+=============================
 
 "What would y'all like to drink today?"
 
