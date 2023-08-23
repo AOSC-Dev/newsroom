@@ -3,7 +3,7 @@
 
 “练绣廉些米？”
 
-欢迎阅读安同开源社区 (AOSC) 双周报——《安记冰室》！《安记冰室》旨在以轻松可及的方式，以图文形式介绍过去两周的开发进展、社区事务与近期社区内外活动资讯。此外，本栏目还用于发布与社团及行业人士及代表的访谈录，以特辑形式发布。本栏目不发表评论性内容。
+欢迎阅读安同开源社区 (AOSC) 双周报——《安记冰室》！本栏目旨在以轻松可及的方式，以图文形式介绍过去两周的开发进展、社区事务与近期社区内外活动资讯。此外，本栏目还用于发布与社团及行业人士及代表的访谈录，以特辑形式发布。本栏目不发表评论性内容。
 
 AOSC OS 快讯
 ------------
@@ -39,7 +39,7 @@ AOSC OS 的 Retro 版本最初取名仿照 IBM OS/2，即 AOSC OS/Retro。但社
 
 Omakase 1.1 的主要开发目标有：
 
-- **模块化：** 整理代码，方便其他开发者利用 oma 特性
+- **模块化：** 整理代码，方便其他开发者利用 Omakase 特性
 - **系统集成：** 自动检查电源条件，控制系统电源及会话管理，有效避免意外故障
 - **界面进化：** 重新设计历史及撤销功能，操作历史、回放及撤销界面更简明易懂；各项操作确认后，向终端回显操作内容，以便查阅
 - **性能优化：** 优化下载及解压逻辑，源数据刷新大幅度增速
@@ -57,13 +57,13 @@ Omakase 1.1 的主要开发目标有：
 - Rust 更新至 1.71.0
 - LLVM 更新至 16.0.6，修复 MIPS 可用性问题
 - LDC 更新至 1.32.2，新增 POWER (`ppc64el`) 及基于 MIPS 的龙芯 3 (`loongson3`) 支持
-- cURL 更新至 8.1.1，修复数个安全问题
+- curl 更新至 8.1.1，修复数个安全问题
 - yt-dlp 更新至 2023.07.06，修复及新增流媒体站点支持
 - Fcitx 的萌娘百科词库 ([fcitx-pinyin-moegirl](https://github.com/outloudvi/mw2fcitx)) 更新至 20230814，引入许多新词
 - fail2ban 更新至 1.0.2，修复先前版本服务无法启用的问题
 - e2fsprogs 更新至 1.47.0，修复无法检查使用新工具创建的 ext4 分区的问题
 - FreeRDP 更新至 2.10.0，修复随机崩溃的问题
-- Remmina 更新至 1.4.31，修复从 Adobe Acrobat DC 及其他基于 WPF 的 Windows 程序中复制时短时卡顿的问题
+- Remmina 更新至 1.4.31，修复从 Adobe Acrobat 等其他基于 WPF 的 Windows 程序中复制时短时卡顿的问题
 - [Bash 配置](https://github.com/AOSC-Dev/bash-config)更新至 0.4.7.7，修复 `cd` 命令补全时列出环境变量名的问题
 - 修复 VirtualBox 更新时无法正确识别内核模块版本的问题
 - [系统安装器 (DeployKit)](https://github.com/AOSC-Dev/aoscdk-rs) 更新至 0.9.5，修复某些 AArch64 SBSA 设备安装系统后无法自动启动 GRUB 引导器的问题，优化 Afterglow 安装性能，新增 LoongArch 构建支持
@@ -72,17 +72,17 @@ Omakase 1.1 的主要开发目标有：
 
 过去两周，AOSC OS 软件仓库中新增如下软件包：
 
-- `distrobox`，可用于快速部署各类 Linux 发行版
-- `edid-decode`，EDID 数据解析工具
-- `gitoxide`，Git 版本控制系统的 Rust 实现
-- `hw-probe`，设备索引及测试工具
-- `jetbrains-mono`，来自 IDE 开发商 JetBrains 的等宽开发用字体
-- `lldpd`，使用 802.1AB（链路层发现协议）探测本地网络中的设备
-- `taskwarrior`，采用命令行终端界面的个人日程管理器
+- Distrobox (`distrobox`)，可用于快速部署各类 Linux 发行版
+- EDID Decode (`edid-decode`)，EDID 数据解析工具
+- gitoxide (`gitoxide`)，Git 版本控制系统的 Rust 实现
+- HW PROBE (`hw-probe`)，设备索引及测试工具
+- JetBrains Mono (`jetbrains-mono`)，来自 IDE 开发商 JetBrains 的等宽开发用字体
+- lldpd (`lldpd`)，使用 802.1ab（链路层发现协议）探测本地网络中的设备
+- Taskwarrior (`taskwarrior`)，命令行终端界面的个人日程管理器
 
 #### 周边项目
 
-- [aosc-mklive](https://github.com/AOSC-Dev/aosc-mklive/) 工具优化 Afterglow 逻辑，将 LiveKit 大小压缩至 CD 尺寸
+- [aosc-mklive](https://github.com/AOSC-Dev/aosc-mklive/) 工具优化 Afterglow 生成逻辑，将 LiveKit 大小压缩至 CD 尺寸（约 700 MiB）
 
 #### 开发工具
 
@@ -92,12 +92,12 @@ Omakase 1.1 的主要开发目标有：
 
 为更好地测试我们的系统更新，我们为不同类别的更新创建相应测试源，供用户与贡献者测试。本周，我们新增了如下几个测试源：
 
-- **AOSC OS Core 11 (`core-k`)：** 更新系统核心运行时：Glibc 更新至 2.37，GCC 更新至 13.2.0，Linux API 头更新至 6.4.7，Zstd 更新至 1.5.5
+- **AOSC OS Core 11 (`core-k`)：** 更新系统核心运行时：Glibc 更新至 2.37，GCC 更新至 13.2.0，Linux API 头更新至 6.4.7，Zstandard 更新至 1.5.5
 - **Bash 启动配置规范化 (`etc-profile-cleanup-survey-20230614`)：** 对各软件包中的 Bash 启动配置进行清理，规范化文件摆放，修复终端模拟器会话中某些功能无法正常使用的问题
-- **Linux 内核八月更新 (`linux-kernel-survey-20230811`)：** 更新主线内核至 6.4.10，长期支持版（Long-Term Support，简称 LTS）内核至 6.1.45，修复 AMD 处理器中近期发现的安全漏洞 (CVE-2023-20569)
+- **Linux 内核八月更新 (`linux-kernel-survey-20230811`)：** 更新主线内核至 6.4.10，长期支持版（Long-Term Support，简称 LTS）内核至 6.1.45，修复 AMD 处理器中近期发现的安全漏洞 ([CVE-2023-20569](https://www.cve.org/CVERecord?id=CVE-2023-20569))
 - **OpenSSL 3.1.1 (`openssl-3.1.1`)：** 引入 OpenSSL 3.1.1 以替代老旧的 OpenSSL 1.1 运行时
 
-这些测试源也将同步至我们的龙架构 (LoongArch) 前沿分支，并为引入将龙架构为 AOSC OS 正式支持的架构作准备。
+这些测试源也将同步至我们的龙架构 (LoongArch) 前沿分支，并为正式引入将龙架构支持作准备。
 
 输入如下命令方可随时加入或退出测试源：
 
@@ -123,7 +123,7 @@ sudo oma topics
 
 ### AOSCC 2023 贴纸集订购
 
-2023 年度 AOSCC 贴纸集已完成再版并已到货，我们计划以每套 10 元 + 运费（每版 5 元，共 2 版）贩卖，以便收回再版印刷费用。本版贴纸还改进了覆膜的耐磨度，相信会比之前的贴纸更耐用。
+2023 年度 AOSCC 贴纸集已完成再版并已到货，我们计划以每套 10 元人民币 + 运费（每版 5 元，共 2 版）贩卖，以便收回再版印刷费用。本版贴纸还改进了覆膜的耐磨度，相信会比之前的贴纸更耐用。
 
 // TODO: 订购问卷
 
