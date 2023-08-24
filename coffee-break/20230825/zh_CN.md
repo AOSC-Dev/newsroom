@@ -10,6 +10,14 @@ AOSC OS 快讯
 
 在过去两周中，社区开发者们除继续对 [AOSC OS](https://aosc.io/zh-cn/downloads) 进行日常维护外，还为系统引入了许多更新、修复，推进了系统周边组件的开发，希望这些工作能为您的工作与娱乐生活带来便利。
 
+### AOSC OS/Retro 更名：星霞 (Afterglow)
+
+AOSC OS 的 Retro 版本最初取名仿照 IBM OS/2，即 AOSC OS/Retro。但社区有批评全名读起来拗口、Retro 命名无聊浅显等。AOSC Retro 小组经过数轮头脑风暴，选出了星霞 (Afterglow) 这个新名称，取义“落日余晖”、“晚霞”和“美好回忆”，让您喜爱的老旧设备发挥余热。
+
+// TODO: 拍照
+
+![运行于 IBM ThinkPad X41 上的 Afterglow](/coffee-break/20230825/imgs/x41-afterglow.png)
+
 ### 发行版新视觉 ID
 
 本周，综合社区意见重新设计 AOSC OS 及 Afterglow（原 AOSC OS/Retro）的视觉 ID 上线：
@@ -24,14 +32,6 @@ AOSC OS 快讯
 // TODO: 整理仓库并新增许可声明
 
 我社各种徽标、视觉 ID 设计稿等均可从 [GitHub 仓库 AOSC-Dev/logo](https://github.com/AOSC-Dev/logo) 下载。
-
-### AOSC OS/Retro 更名：星霞 (Afterglow)
-
-AOSC OS 的 Retro 版本最初取名仿照 IBM OS/2，即 AOSC OS/Retro。但社区有批评全名读起来拗口、Retro 命名无聊浅显等。AOSC Retro 小组经过数轮头脑风暴，选出了星霞 (Afterglow) 这个新名称，取义“落日余晖”、“晚霞”和“美好回忆”，让您喜爱的老旧设备发挥余热。
-
-// TODO: 拍照
-
-![运行于 IBM ThinkPad X41 上的 Afterglow](/coffee-break/20230825/imgs/x41-afterglow.png)
 
 ### Omakase 1.1 展望
 
@@ -96,6 +96,7 @@ Omakase 1.1 的主要开发目标有：
 - **Bash 启动配置规范化 (`etc-profile-cleanup-survey-20230614`)：** 对各软件包中的 Bash 启动配置进行清理，规范化文件摆放，修复终端模拟器会话中某些功能无法正常使用的问题
 - **Linux 内核八月更新 (`linux-kernel-survey-20230811`)：** 更新主线内核至 6.4.10，长期支持版（Long-Term Support，简称 LTS）内核至 6.1.45，修复 AMD 处理器中近期发现的安全漏洞 ([CVE-2023-20569](https://www.cve.org/CVERecord?id=CVE-2023-20569))
 - **OpenSSL 3.1.1 (`openssl-3.1.1`)：** 引入 OpenSSL 3.1.1 以替代老旧的 OpenSSL 1.1 运行时
+- **Security Survey 2023H1/Libtiff (`security-survey-2023h1-libtiff`)：** 安全更新终于有进展了！更新 libtiff 至 4.5.1，同时涉及到大量其他软件包重构和更新。
 
 这些测试源也将同步至我们的龙架构 (LoongArch) 前沿分支，并为正式引入将龙架构支持作准备。
 
