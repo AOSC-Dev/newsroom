@@ -46,7 +46,7 @@ Omakase 1.1 的主要开发目标有：
 
 过去两周中我们为 AOSC OS 推送了许多更新，这里简要介绍其中几项：
 
-- 主线内核更新至 6.4.10，长期支持版（Long-Term Support，简称 LTS）内核更新至 6.1.45，修复 AMD 处理器中近期发现的安全漏洞 ([CVE-2023-20569](https://www.cve.org/CVERecord?id=CVE-2023-20569))
+- 主线内核更新至 6.4.10，长期支持版 (Longterm) 内核更新至 6.1.45，修复 AMD 处理器中近期发现的安全漏洞 ([CVE-2023-20569](https://www.cve.org/CVERecord?id=CVE-2023-20569))
 - Discord 聊天、语音及直播软件更新至 0.0.29
 - Qemu 虚拟机及模拟器套件更新至 8.1.0
 - Binutils 更新至 2.41，引入许多龙架构 (LoongArch) 指令支持
