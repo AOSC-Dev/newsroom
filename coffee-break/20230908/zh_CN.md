@@ -19,12 +19,12 @@ AOSC OS 快讯
 本次 AOSC OS Core 更新的内容有：
 
 - **Glibc 更新至 2.37：** 带来众多函数优化及修复
-- **GCC 更新至 13.2.0：** 完善 C23/C++23 支持，新增 Zen4 及龙架构 (LoongArch) 等处理器的优化支持
+- **GCC 更新至 13.2.0：** 完善 C23/C++23 支持，新增 AMD Zen 4 及龙架构 (LoongArch) 等处理器的优化支持
 - **Linux API 头更新至 6.4.7：** 引入新特性支持，改善与新软件的兼容性
 - **Zstandard 更新至 1.5.5：** 大幅度提升压缩及解压性能
 - 发行版数据中，AOSC OS/Retro 更名为 Afterglow（星霞）
 
-此外，AOSC OS Core 还增加了龙架构 (LoongArch) 支持，为年底至明年初龙架构成为正式支持架构打下基础。
+此外，AOSC OS Core 还增加了龙架构 (LoongArch) 支持，为今年底至明年初龙架构成为正式支持架构打下基础。
 
 ### Omakase 1.1 展望
 
