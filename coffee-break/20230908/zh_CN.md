@@ -89,7 +89,7 @@ https://github.com/AOSC-Dev/newsroom/blob/master/coffee-break/20230908/zh_CN.md
 为更好地测试我们的系统更新，我们为不同类别的更新创建相应测试源，供用户与贡献者测试。本周，我们新增了如下几个测试源：
 
 - **OpenSSL 3.1.1 (`openssl-3.1.1`)：** 引入 OpenSSL 3.1.1 以替代老旧的 OpenSSL 1.1 运行时
-- **Security Survey 2023H1/Libtiff (`security-survey-2023h1-libtiff`)：** 安全更新终于有进展了！更新 libtiff 至 4.5.1，同时涉及大量其他软件包重构和更新
+- **Security Survey 2023H1/Libtiff (`security-survey-2023h1-libtiff`)：** 更新 libtiff 至 4.5.1，同时涉及大量其他软件包重构和更新
 
 这些测试源也将同步至我们的龙架构 (LoongArch) 前沿分支 (`frontier`)，并为正式引入将龙架构支持作准备。
 
