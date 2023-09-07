@@ -58,7 +58,7 @@ Omakase 1.1 的主要开发目标有：
 - [系统安装器 (DeployKit)](https://github.com/AOSC-Dev/aoscdk-rs) 更新至 0.9.5，修复无法获取最新系统发行列表的问题
 
 #### 新增组件
-https://github.com/AOSC-Dev/newsroom/blob/master/coffee-break/20230908/zh_CN.md
+
 过去两周，AOSC OS 软件仓库中新增如下软件包：
 
 - canokey-qemu (`canokey-qemu`)，用于在虚拟机中模拟 Camokey 设备
