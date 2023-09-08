@@ -58,7 +58,7 @@ A good number of updates made it into AOSC OS in the past two weeks, here are a 
 - Prism Launcher, an open-source Minecraft launcher, was updated to 7.2
 - Zotero bibliography and reference manager was updated to 6.0.26
 - Surveyed Bash profile scripts in various packages and moved them to more standardised locations; profile scripts should now apply properly on non-login sessions (such as graphical terminal emulators)
-- [The System Installer (DeployKit)](https://github.com/AOSC-Dev/aoscdk-rs) was updated to 0.9.5, fixing an issue where the installer fails to fetch metadata for the newest system releases
+- [The System Installer (DeployKit)](https://github.com/AOSC-Dev/aoscdk-rs) was updated to 0.9.6, fixing an issue where the installer fails to fetch metadata for the newest system releases
 
 #### New Packages
 

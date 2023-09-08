@@ -56,7 +56,7 @@ Omakase 1.1 的主要开发目标有：
 - Prism Launcher 开源 Minecraft 启动器更新至 7.2
 - Zotero 文献管理器更新至 6.0.26
 - 对各软件包中的 Bash 启动配置进行清理，规范化文件摆放，修复终端模拟器会话中某些功能无法正常使用的问题
-- [系统安装器 (DeployKit)](https://github.com/AOSC-Dev/aoscdk-rs) 更新至 0.9.5，修复无法获取最新系统发行列表的问题
+- [系统安装器 (DeployKit)](https://github.com/AOSC-Dev/aoscdk-rs) 更新至 0.9.6，修复无法获取最新系统发行列表的问题
 
 #### 新增组件
 
