@@ -62,7 +62,7 @@ Omakase 1.1 的主要开发目标有：
 
 过去两周，AOSC OS 软件仓库中新增如下软件包：
 
-- canokey-qemu (`canokey-qemu`)，用于在虚拟机中模拟 Camokey 设备
+- canokey-qemu (`canokey-qemu`)，用于在虚拟机中模拟 Canokey 设备
 - eza (`eza`)，增强型 `ls(1)` 命令
 - Feishin (`feishin`)，自建流媒体服务客户端
 - libu2f-emu (`libu2f-emu`)，用于在虚拟机中模拟通用第二因素 (Universal 2nd Factor，简称 U2F) 设备
