@@ -52,7 +52,7 @@ Omakase 1.1 的主要开发目标有：
 - Binutils 更新至 2.41，引入许多龙架构 (LoongArch) 指令支持
 - Less 更新至 643，修复安全漏洞 [CVE-2022-46663](https://github.com/advisories/GHSA-5xw7-xf7p-gm82)
 - GNU 调试器 (GDB) 更新至 13.2
-- PowerShell 更新至 6.3.6
+- PowerShell 更新至 7.3.6
 - Prism Launcher 开源 Minecraft 启动器更新至 7.2
 - Zotero 文献管理器更新至 6.0.26
 - 对各软件包中的 Bash 启动配置进行清理，规范化文件摆放，修复终端模拟器会话中某些功能无法正常使用的问题

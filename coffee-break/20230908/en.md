@@ -54,7 +54,7 @@ A good number of updates made it into AOSC OS in the past two weeks, here are a 
 - Binutils was updated to 2.41, introducing support for many more LoongArch instructions
 - Less was updated to 643, fixing [CVE-2022-46663](https://github.com/advisories/GHSA-5xw7-xf7p-gm82)
 - GNU Debugger (GDB) was updated to 13.2
-- PowerShell was updated to 6.3.6
+- PowerShell was updated to 7.3.6
 - Prism Launcher, an open-source Minecraft launcher, was updated to 7.2
 - Zotero bibliography and reference manager was updated to 6.0.26
 - Surveyed Bash profile scripts in various packages and moved them to more standardised locations; profile scripts should now apply properly on non-login sessions (such as graphical terminal emulators)
