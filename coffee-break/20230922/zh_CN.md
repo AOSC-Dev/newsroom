@@ -90,6 +90,7 @@ AOSC OS 快讯
 #### 周边项目
 
 - [aosc-mklive](https://github.com/AOSC-Dev/aosc-mklive/) 安装维护盘生成工具修复搭载基板管理控制器的龙架构 (LoongArch) 主板上无法使用独显启动图形界面的问题；新增指定自定义发行分支及修订版本的支持；默认关闭过分拉长启动时间的介质校验和检查
+- [aoscify-starship-theme](https://github.com/AOSC-Dev/aoscify-starship-theme) 立项，使用 Starship 重新实现 AOSC OS 的默认 Bash 提示符
 
 #### 开发工具
 
