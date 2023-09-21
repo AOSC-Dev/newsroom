@@ -35,7 +35,7 @@ AOSC OS 快讯
 - 引入 LLVM lld 链接器支持，并为 Rust 程序打开 LTO 优化
 - ……
 
-目前，实验性的 LoongArch 系统已经可以从[系统主页下载](https://aosc.io/downloads)，欢迎试用及提供反馈，亦欢迎有志之士加入“合龙”工作！
+目前，实验性的 LoongArch 系统已经可以从[社区主页下载](https://aosc.io/downloads)，欢迎试用及提供反馈，亦欢迎有志之士加入“合龙”工作！
 
 ### Core 11.0.1 发布
 
