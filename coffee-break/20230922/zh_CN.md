@@ -48,7 +48,7 @@ AOSC OS 快讯
 
 ![Core 11 喵～](/coffee-break/20230922/imgs/core-11-banner.png)
 
-本周，社区贡献者[刘子兴](https://github.com/liushuyu)发布了 Core 11.0.1，修缮 MIPS 及 POWER 架构的 D 语言支持，并开启了 GCC 的 GNU Modula-2 语言支持。
+本周，社区贡献者[刘子兴 (liushuyu)](https://github.com/liushuyu)发布了 Core 11.0.1，修缮 MIPS 及 POWER 架构的 D 语言支持，并开启了 GCC 的 GNU Modula-2 语言支持。
 
 ### 数个套件更新进入稳定源
 
