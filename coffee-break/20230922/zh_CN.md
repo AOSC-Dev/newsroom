@@ -16,7 +16,7 @@ AOSC OS 快讯
 
 ![社区贡献者王江津（[咸鱼](https://github.com/RedL0tus)）正在移植 GCC 主分支上的 LSX/LASX 补丁](/coffee-break/20230922/imgs/gcc-backporting.jpg)
 
-过去两周，我们在为 LoongArch 移植引入和修复软件包的同时，还完成了如下几项工作（感谢[吴楷阳 (OriginCode)](https://github.com/OriginCode)、[jiegec](https://github.com/jiegec)、[cth451](https://github.com/cthbleachbit/) 及[王江津（咸鱼）](https://github.com/RedL0tus)等贡献者，以及来自龙芯中科与 LoongArch 社区的同事朋友们的协助）：
+过去两周，我们在为 LoongArch 移植引入和修复软件包的同时，还完成了如下几项工作（感谢 [jiegec](https://github.com/jiegec)、[cth451](https://github.com/cthbleachbit/)、[吴楷阳 (OriginCode)](https://github.com/OriginCode)、[刘子兴](https://github.com/liushuyu)及[王江津（咸鱼）](https://github.com/RedL0tus)等贡献者，以及来自龙芯中科与 LoongArch 社区的同事朋友们的协助）：
 
 - 修复 LiveKit 介质无法引导的问题，并引入了安装程序支持
 - 将 Linux 内核更新至 6.4，与上游同步架构与设备支持补丁
