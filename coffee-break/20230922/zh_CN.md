@@ -63,7 +63,7 @@ AOSC OS 快讯
 - Bash 基础配置 ([bash-config](https://github.com/AOSC-Dev/bash-config)) 更新至 0.5.1，优化 SSH 提示符逻辑，新增使用 Rust 实现的 Git 提示符组件 ([bash-git-status](https://github.com/AOSC-Dev/bash-git-status))，修复 `gdc` 命令与 Git 命令别名的冲突问题
 - GCC (`gcc`) 修缮 MIPS 及 POWER 架构的 D 语言支持，新增 GNU Modula-2 语言支持
 - Discord 聊天、语音及直播软件更新至 0.0.30
-- Fcitx 的萌娘百科词库 ([fcitx-pinyin-moegirl](https://github.com/outloudvi/mw2fcitx)) 更新至 20230914，引入许多新词
+- Fcitx 的萌娘百科词库 ([fcitx5-pinyin-moegirl](https://github.com/outloudvi/mw2fcitx)) 更新至 20230914，引入许多新词
 - Fend 命令行计算器及单位转换工具 (`fend`) 更新至 1.2.2
 - Fish 命令提示符 (`fish`) 更新至 3.6.1
 - libvirt (`libvirt`) 套件更新至 9.6.0，包含大量新特性及修复
