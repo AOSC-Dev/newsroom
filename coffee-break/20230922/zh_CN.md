@@ -8,11 +8,11 @@
 AOSC OS 快讯
 ------------
 
-在过去两周中，社区开发者们除继续对 [AOSC OS](https://aosc.io/zh-cn/downloads) 进行日常维护外，还为系统引入了许多更新、修复，推进了系统周边组件的开发，希望这些工作能为您的工作与娱乐生活带来便利。
+在过去两周中，社区开发者们除继续对 [AOSC OS](https://aosc.io/zh-cn/downloads/) 进行日常维护外，还为系统引入了许多更新、修复，推进了系统周边组件的开发，希望这些工作能为您的工作与娱乐生活带来便利。
 
 ### 龙架构 (LoongArch) 移植：“合龙”工作启动
 
-在社区贡献者中龙架构 (LoongArch) 用户与日俱增的同时，在过去几周中，我们开始快速推进 LoongArch 移植修缮，并启动了“合龙”工作——将目前位于前沿分支 (`frontier`) 中的移植工作合并到稳定分支 (`stable`) 中。在未来数数个月中，我们将拆分两个分支中的源码及配置差异并进行[审阅、测试及合并工作](https://github.com/AOSC-Dev/aosc-os-abbs/pull/4701)，直到 LoongArch 架构构建配置等成为稳定系统的一部分。
+近几个月来，社区贡献者中的龙架构 (LoongArch) 用户与日俱增。在过去几周中，我们开始快速推进 LoongArch 移植修缮，并启动了“合龙”工作——将目前位于前沿分支 (`frontier`) 中的移植工作合并到稳定分支 (`stable`) 中。在未来数个月中，我们将拆分两个分支中的源码及配置差异并进行[审阅、测试及合并工作](https://github.com/AOSC-Dev/aosc-os-abbs/pull/4701)，直到 LoongArch 架构构建配置等成为稳定系统的一部分。
 
 ![社区贡献者王江津（[咸鱼](https://github.com/RedL0tus)）正在移植 GCC 主分支上的 LSX/LASX 补丁](/coffee-break/20230922/imgs/gcc-backporting.jpg)
 
@@ -35,7 +35,7 @@ AOSC OS 快讯
 - 引入 LLVM lld 链接器支持，并为 Rust 程序打开 LTO 优化
 - ……
 
-目前，实验性的 LoongArch 系统已经可以从[社区主页下载](https://aosc.io/downloads)，欢迎试用及提供反馈，亦欢迎有志之士加入“合龙”工作！
+目前，实验性的 LoongArch 系统已经可以从[社区主页下载](https://aosc.io/zh-cn/downloads)，欢迎试用及提供反馈，亦欢迎有志之士加入“合龙”工作！
 
 ### Core 11.0.1 发布
 
@@ -85,7 +85,7 @@ AOSC OS 快讯
 - Maliit 键盘套件 (`maliit-framework`, `maliit-keyboard`)，用于 Plasma Mobile 移动设备界面
 - SANLock (`sanlock`)，存储集群访问管理器
 - OCaml-Augeas (`ocaml-augeas`)，Augeas 配置文件编辑库的 OCaml 语言绑定
-- undeaD (`undeaD`)，D 语言老旧组件集合
+- undeaD (`undead`)，D 语言老旧组件集合
 
 #### 周边项目
 
@@ -94,13 +94,13 @@ AOSC OS 快讯
 #### 开发工具
 
 - [Autobuild3](https://github.com/AOSC-Dev/autobuild3) 半自动打包工具更新至 1.6.104，修复带有共享库的 Rust 软件的安装流程；新增针对无需登记依赖确切版本的元包的 `ABBUILDDEPONLY=` 选项，提高打包效率；登记所有架构的 默认 Rust 构建参数 (`RUSTFLAGS`)；降低 32 位大端序 PowerPC 移植的处理器基线至 PowerPC 603，以便在更老的 Macintosh 电脑上运行星霞 OS (Afterglow)；在所有星霞架构上打开 `-gc-section` 参数，最小化二进制大小；登记 SPARC64 (SPARC V9) 构建参数，为新架构移植作准备
-- 容器化打包环境管理工具 [Ciel](https://github.com/AOSC-Dev/ciel-rs) 更新至 3.2.0，新增在工作区初始化向导中指定目标架构（非原生架构使用 Qemu 用户态模拟运行）的功能；此外，换用 SquashFS 格式的 BuildKit 发行，大幅度缩短环境部署耗时
+- 容器化打包环境管理工具 [Ciel](https://github.com/AOSC-Dev/ciel-rs) 更新至 3.2.0，新增在工作区初始化向导中指定目标架构（非原生架构使用 QEMU 用户态模拟运行）的功能；此外，换用 SquashFS 格式的 BuildKit 发行，大幅度缩短环境部署耗时
 
 ### 尝鲜预报
 
-为更好地测试我们的系统更新，我们为不同类别的更新创建相应测试源，供用户与贡献者测试。本周，我们新增了如下几个测试源：
+为更好地测试我们的系统更新，我们为不同类别的更新创建相应测试源，供用户与贡献者测试。目前，我们开放如下测试源：
 
-- **OpenSSL 3.1.1 (`openssl-3.1.1`)：** 引入 OpenSSL 3.1.1 以替代老旧的 OpenSSL 1.1 运行时
+- **OpenSSL 3.1.1 (`openssl-3.1.1`)：** 引入 OpenSSL 3.1 以替代老旧的 OpenSSL 1.1.1 运行时
 
 这些测试源也将同步至我们的龙架构 (LoongArch) 前沿分支 (`frontier`)，并为正式引入将龙架构支持作准备。
 
