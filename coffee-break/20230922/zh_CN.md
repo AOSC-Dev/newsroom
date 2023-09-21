@@ -30,11 +30,11 @@ AOSC OS 快讯
 核心工具链方面：
 
 - 将 AOSC OS Core 更新至 11.0.1 稳定版本，引入 GCC 13.2.0 等主线分支更新
-- 将 Binutils 更新至 2.41，加入 LSX 及 LASX 指令集支持
+- 将 Binutils 更新至 2.41，包含 LSX 及 LASX 指令集支持
 - 从 GCC 主分支 (`master`) 移植 LSX/LASX 指令集支持至 GCC 13.2.0
 - 从 Glibc 主分支 (`master`) 移植 LSX/LASX 指令集支持补丁至 Glibc 2.37
 - 引入 LLVM lld 链接器支持，并为 Rust 程序打开 LTO 优化
-- 新增 GCC 中的 D 语言支持及 LDC 支持
+- 新增 GCC 中的 D 语言支持，添加 LDC 的 LoongArch 架构支持
 
 在未来一段时间中，我们还将推进如下工作：
 
