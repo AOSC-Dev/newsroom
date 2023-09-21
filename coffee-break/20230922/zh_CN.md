@@ -75,7 +75,7 @@ AOSC OS 快讯
 - 修复 Tilix 可分屏终端模拟器 (`tilix`) 在 LDC 运行时 (`liblphobos`) 更新后无法启动的问题
 - ZFS 文件系统内核模块及管理工具更新至 2.1.12，修复 AArch64 支持
 - AOSC OS 测试源管理工具 ([atm](https://github.com/AOSC-Dev/atm)) 更新至 0.6.2，修复龙架构 (LoongArch) 构建支持
-- [系统安装器 (DeployKit)](https://github.com/AOSC-Dev/aoscdk-rs) 更新至 0.9.8，修复龙架构 (LoongArch) 上的 GRUB 支持，在 RISC-V 架构上默认以安装可移动 GRUB 引导程序镜像
+- 系统安装器 ([DeployKit](https://github.com/AOSC-Dev/aoscdk-rs)) 更新至 0.9.8，修复龙架构 (LoongArch) 上的 GRUB 支持，在 RISC-V 架构上默认以安装可移动 GRUB 引导程序镜像
 
 #### 新增组件
 
