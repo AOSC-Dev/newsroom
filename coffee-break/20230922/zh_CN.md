@@ -16,7 +16,7 @@ AOSC OS 快讯
 
 ![社区贡献者王江津（[咸鱼](https://github.com/RedL0tus)）正在移植 GCC 主分支上的 LSX/LASX 补丁](/coffee-break/20230922/imgs/gcc-backporting.jpg)
 
-过去两周，我们在为 LoongArch 移植引入和修复软件包的同时，还完成了如下几项工作（感谢 [jiegec](https://github.com/jiegec)、[cth451](https://github.com/cthbleachbit/)、[吴楷阳 (OriginCode)](https://github.com/OriginCode)、[刘子兴](https://github.com/liushuyu)及[王江津（咸鱼）](https://github.com/RedL0tus)等贡献者，以及来自龙芯中科与 LoongArch 社区的同事朋友们的协助）：
+过去两周，我们在为 LoongArch 移植引入和修复软件包的同时，还完成了如下几项工作（感谢 [陈嘉杰 (jiegec)](https://github.com/jiegec) 、[cth451](https://github.com/cthbleachbit/)、[吴楷阳 (OriginCode)](https://github.com/OriginCode) 、[刘子兴 (liushuyu)](https://github.com/liushuyu) 及[王江津（咸鱼）](https://github.com/RedL0tus)等贡献者，以及来自龙芯中科与 LoongArch 社区的同事朋友们的协助）：
 
 - 修复 LiveKit 介质无法引导的问题，并引入了安装程序支持
 - 将 Linux 内核更新至 6.4，与上游同步架构与设备支持补丁
@@ -60,7 +60,7 @@ AOSC OS 快讯
 - 火狐浏览器 (`firefox`) 更新至 117.0.1，修复数个安全漏洞
 - Thunderbird 邮件客户端 (`thunderbird`) 更新至 115.2.2，引入全新的 [Supernova 界面](https://blog.thunderbird.net/2023/07/our-fastest-most-beautiful-release-ever-thunderbird-115-supernova-is-here/)
 - Chromium (`chromium`) 及 Google Chrome 浏览器 (`google-chrome`) 更新至 116.0.5845.179，修复多项安全漏洞
-- Bash 基础配置 ([bash-config](https://github.com/AOSC-Dev/bash-config)) 更新至 0.5.1，新增使用 Rust 实现的 Git 提示符组件 ([bash-git-status](https://github.com/AOSC-Dev/bash-git-status))，修复 `gdc` 命令与 Git 命令别名的冲突问题
+- Bash 基础配置 ([bash-config](https://github.com/AOSC-Dev/bash-config)) 更新至 0.5.1，优化 SSH 提示符逻辑，新增使用 Rust 实现的 Git 提示符组件 ([bash-git-status](https://github.com/AOSC-Dev/bash-git-status))，修复 `gdc` 命令与 Git 命令别名的冲突问题
 - GCC (`gcc`) 修缮 MIPS 及 POWER 架构的 D 语言支持，新增 GNU Modula-2 语言支持
 - Discord 聊天、语音及直播软件更新至 0.0.30
 - Fcitx 的萌娘百科词库 ([fcitx-pinyin-moegirl](https://github.com/outloudvi/mw2fcitx)) 更新至 20230914，引入许多新词
