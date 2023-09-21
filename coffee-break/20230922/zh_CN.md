@@ -74,14 +74,14 @@ AOSC OS 快讯
 - Starship 通用命令提示符自定义工具 (`starship`) 更新至 1.16.0，新增 Gitoxide 支持等新特性
 - 修复 Tilix 可分屏终端模拟器 (`tilix`) 在 LDC 运行时 (`liblphobos`) 更新后无法启动的问题
 - ZFS 文件系统内核模块及管理工具更新至 2.1.12，修复 AArch64 支持
-- AOSC OS 测试源管理工具 (`atm`) 更新至 0.6.2，修复龙架构 (LoongArch) 构建支持
+- AOSC OS 测试源管理工具 ([atm](https://github.com/AOSC-Dev/atm)) 更新至 0.6.2，修复龙架构 (LoongArch) 构建支持
 - [系统安装器 (DeployKit)](https://github.com/AOSC-Dev/aoscdk-rs) 更新至 0.9.8，修复龙架构 (LoongArch) 上的 GRUB 支持，在 RISC-V 架构上默认以安装可移动 GRUB 引导程序镜像
 
 #### 新增组件
 
 过去两周，AOSC OS 软件仓库中新增如下软件包：
 
-- bash-git-status (`bash-git-status`)，使用 Rust 重实现的 Bash Git 状态提示符
+- bash-git-status ([bash-git-status](https://github.com/AOSC-Dev/bash-git-status))，使用 Rust 重实现的 Bash Git 状态提示符
 - Maliit 键盘套件 (`maliit-framework`, `maliit-keyboard`)，用于 Plasma Mobile 移动设备界面
 - SANLock (`sanlock`)，存储集群访问管理器
 - OCaml-Augeas (`ocaml-augeas`)，Augeas 配置文件编辑库的 OCaml 语言绑定
