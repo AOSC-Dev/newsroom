@@ -16,26 +16,33 @@ AOSC OS 快讯
 
 ![社区贡献者王江津（[咸鱼](https://github.com/RedL0tus)）正在移植 GCC 主分支上的 LSX/LASX 补丁](/coffee-break/20230922/imgs/gcc-backporting.jpg)
 
-过去两周，我们在为 LoongArch 移植引入和修复软件包的同时，还完成了如下几项工作（感谢 [陈嘉杰 (jiegec)](https://github.com/jiegec) 、[cth451](https://github.com/cthbleachbit/)、[吴楷阳 (OriginCode)](https://github.com/OriginCode) 、[刘子兴 (liushuyu)](https://github.com/liushuyu) 及[王江津（咸鱼）](https://github.com/RedL0tus)等贡献者，以及来自龙芯中科与 LoongArch 社区的同事朋友们的协助）：
+过去两周，我们为 LoongArch 移植引入和修复了许多软件包，并为基础开发工具和运行时引入了许多前沿改进。感谢 [陈嘉杰 (jiegec)](https://github.com/jiegec) 、[cth451](https://github.com/cthbleachbit/)、[吴楷阳 (OriginCode)](https://github.com/OriginCode) 、[刘子兴 (liushuyu)](https://github.com/liushuyu) 及[王江津（咸鱼）](https://github.com/RedL0tus)等贡献者，以及来自龙芯中科与 LoongArch 社区的同事朋友们的协助。
+
+其中，系统组件和应用程序方面：
 
 - 修复 LiveKit 介质无法引导的问题，并引入了安装程序支持
-- 将 Linux 内核更新至 6.4，与上游同步架构与设备支持补丁
+- 将 Linux 内核更新至 6.5.4，更新 LoongArch 支持补丁，并引入 KVM 虚拟化支持补丁
 - 将 Firefox 更新至 117.0.1，更新架构修复补丁
-- 将 AOSC OS Core 更新至 11.0.1 稳定版本，引入 GCC 13.2.0 等主线分支更新
-- 将 Binutils 更新至 2.41，加入 LSX 及 LASX 指令集支持
-- 引入 Telegram Desktop，Fish 等新软件包
+- 引入 Telegram Desktop，Fish 等软件包
 - 补全之前缺少的预装工具（尤其是使用 Rust 编写的 fd 及 ripgrep 等）
 - 将 GRUB 更新至 2.12rc1，清理补丁
+
+核心工具链方面：
+
+- 将 AOSC OS Core 更新至 11.0.1 稳定版本，引入 GCC 13.2.0 等主线分支更新
+- 将 Binutils 更新至 2.41，加入 LSX 及 LASX 指令集支持
+- 从 GCC 主分支 (`master`) 移植 LSX/LASX 指令集支持至 GCC 13.2.0
+- 从 Glibc 主分支 (`master`) 移植 LSX/LASX 指令集支持补丁至 Glibc 2.37
+- 引入 LLVM lld 链接器支持，并为 Rust 程序打开 LTO 优化
 - 新增 GCC 中的 D 语言支持及 LDC 支持
 
 在未来一段时间中，我们还将推进如下工作：
 
-- 从 GCC 主分支 (`master`) 中移植 LSX/LASX 指令集支持，并默认打开 LSX 指令集优化重构系统
 - 引入 x86 LAT 二进制转译器及运行时，实验 x86 应用程序运行支持
-- 引入 LLVM lld 链接器支持，并为 Rust 程序打开 LTO 优化
+- GCC 等工具链默认打开 LSX 指令集优化，重构系统
 - ……
 
-目前，实验性的 LoongArch 系统已经可以从[社区主页下载](https://aosc.io/zh-cn/downloads)，欢迎试用及提供反馈，亦欢迎有志之士加入“合龙”工作！
+目前，用于 LoongArch 的实验下系统发行已经可以从[社区主页下载](https://aosc.io/zh-cn/downloads)，欢迎试用并提供反馈，亦欢迎有志之士加入“合龙”工作！
 
 ### Core 11.0.1 发布
 
