@@ -42,7 +42,7 @@ AOSC OS 快讯
 - GCC 等工具链默认打开 LSX 指令集优化，重构系统
 - ……
 
-目前，用于 LoongArch 的实验下系统发行已经可以从[社区主页下载](https://aosc.io/zh-cn/downloads)，欢迎试用并提供反馈，亦欢迎有志之士加入“合龙”工作！
+目前，用于 LoongArch 的实验性系统发行已经可以从[社区主页下载](https://aosc.io/zh-cn/downloads)，欢迎试用并提供反馈，亦欢迎有志之士加入“合龙”工作！
 
 ### Core 11.0.1 发布
 
@@ -111,7 +111,7 @@ AOSC OS 快讯
 - **LibTIFF 安全更新 (`security-survey-2023h1-libtiff`)：** 更新 libtiff 至 4.5.1，同时涉及大量其他软件包重构和更新
 - **OpenSSL 3.1.1 (`openssl-3.1.1`)：** 引入 OpenSSL 3.1 以替代老旧的 OpenSSL 1.1.1 运行时
 
-这些测试源也将同步至我们的龙架构 (LoongArch) 前沿分支 (`frontier`)，并为正式引入将龙架构支持作准备。
+这些测试源也将同步至我们的龙架构 (LoongArch) 前沿分支 (`frontier`)，并为正式引入龙架构支持做准备。
 
 输入如下命令方可随时加入或退出测试源：
 
