@@ -12,7 +12,7 @@ AOSC OS 快讯
 
 ### 龙架构 (LoongArch) 移植：“合龙”工作启动
 
-近几个月来，社区贡献者中的龙架构 (LoongArch) 用户与日俱增。在过去几周中，我们开始快速推进 LoongArch 移植修缮，并启动了“合龙”工作——将目前位于前沿分支 (`frontier`) 中的移植工作合并到稳定分支 (`stable`) 中。在未来数个月中，我们将拆分两个分支中的源码及配置差异并进行[审阅、测试及合并工作](https://github.com/AOSC-Dev/aosc-os-abbs/pull/4701)，直到 LoongArch 架构构建配置等成为稳定系统的一部分。
+近几个月来，社区贡献者中的龙架构 (LoongArch) 用户与日俱增。在过去几周中，我们开始快速推进 LoongArch 移植修缮，并启动了“合龙”工作——将目前位于前沿分支 (`frontier`) 中的移植工作合并到稳定分支 (`stable`) 中。在未来数个月中，我们将就两个分支中的源码及配置差异进行[审阅、测试及合并工作](https://github.com/AOSC-Dev/aosc-os-abbs/pull/4701)，直到 LoongArch 架构构建配置等成为稳定系统的一部分。
 
 ![社区贡献者[王江津（咸鱼）](https://github.com/RedL0tus)正在移植 GCC 主分支上的 LSX/LASX 补丁](/coffee-break/20230922/imgs/gcc-backporting.jpg)
 
