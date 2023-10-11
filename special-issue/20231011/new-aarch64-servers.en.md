@@ -1,3 +1,6 @@
+Two New AArch64 Build Servers Deployed for AOSC OS Maintenance
+====
+
 ![Two new servers deployed for AOSC OS AArch64 maintenance.](/special-issue/20231011/imgs/new-aarch64-servers.jpg)
 
 After [upgrading our AMD64 build server](https://wiki.aosc.io/zh/community/crowdsourcing/epyc-22333-upgrade-2023/) earlier this year, our computational resources for maintaining the AArch64 (`arm64`) port became relatively limited. Added with limited Internet bandwidth and storage I/O performance, the current build server could no longer keep up with the aforementioned build server for AMD64 (`amd64`). This slowed down compilation, packaging, and testing for our Primary (tier 1) archiectures.
