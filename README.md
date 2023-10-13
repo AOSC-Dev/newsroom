@@ -35,9 +35,9 @@ This column, entitled "Live," reports on various in-person events. Contents from
 发布日程 / Scheduling
 --------------------
 
-“安记冰室”于北京时间 (UTC+8) 每月第二、四个周五午间 12 时发布，其他栏目均视讯息内容及编辑进展发布。
+“安记冰室”于北京时间 (UTC+8) 每月第二、四个周六午间 12 时发布，其他栏目均视讯息内容及编辑进展发布。
 
-"Coffee Break" issues are published every second and fourth Fridays at 12 P.M. UTC+8 time. Other columns are published irregularly per content and editing schedules.
+"Coffee Break" issues are published every second and fourth Saturdays at 12 P.M. UTC+8 time. Other columns are published irregularly per content and editing schedules.
 
 供稿指南 / Contribution Guide
 ---------------------------
