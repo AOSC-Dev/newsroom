@@ -21,7 +21,7 @@ AOSC OS 快讯
 - 通过更新 Rust 程序的依赖、提交上游补丁的方式，引入了许多先前无法构建的 Rust 程序，不论是系统安装、实用工具，AOSC OS 的基本系统组件日趋完整
 - 使用带有 LSX 矢量指令集扩展的工具链和 Glibc 运行时库，按照龙芯中科制定的 *Software Development and Build Convention for LoongArch&trade; Architectures*（《龙架构&trade;软件开发与构建约定》）[第 7.3 节](https://github.com/loongson/la-softdev-convention/blob/2975b325e1d31c8b52d75f9948d627343c5a454c/la-softdev-convention.adoc#73-vector-instruction-support)中关于矢量指令集扩展支持的描述，重构了整个 AOSC OS 系统仓库，默认打开 LSX 矢量指令集优化
 
-![龙架构设备上使用 AMD Polaris 设备存在高负载情况下稳定性欠佳，我社成员正使用 glmark2 进行压力测试，协同龙芯工程师及我社贡献者测试内核等组件的新变化；目前，我们仍在调查造成此问题的原因及尝试各种潜在的解决方法](/coffee-break/20231014/imgs/glmark2-benchmark.jpg)
+![龙架构设备上使用 AMD Polaris 设备存在高负载情况下稳定性欠佳的问题：我社成员正使用 glmark2 进行压力测试，协同龙芯工程师及我社贡献者测试内核等组件的新变化；目前，我们仍在调查造成此问题的原因及尝试各种潜在的解决方法](/coffee-break/20231014/imgs/glmark2-benchmark.jpg)
 
 #### 在一起，才是开源
 
