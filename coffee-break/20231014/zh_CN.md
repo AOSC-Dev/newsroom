@@ -15,8 +15,8 @@ AOSC OS 快讯
 国庆中秋长假以来的这几周，龙架构（下称 LoongArch）的软件支持和使用体验依然是我们的工作重点之一。在我社贡献者陆续用上不同 LoongArch 设备作为个人工作用机器后，在使用过程中发现了一些大大小小的问题。经过社区贡献者的努力，在龙芯多个部门工程师的积极协作下，我们调查、测试和解决了数个困扰社区用户们许久的问题，有如：
 
 - 通过[修复 LoongArch 内核对写合并问题规避方式的不一致](https://lore.kernel.org/loongarch/e95d97c98caa525b04cf6383a74db9cadf694afb.camel@icenowy.me/T/#m085bf4e68fd112902e0ae3fddb03d9a8b9eef0fb)，使用 AMD 显卡配合 `amdgpu` 内核驱动时，Firefox 界面及网页多媒体内容中的渲染错误得到解决，再也不用纠结是不是显卡故障了
-- 排查出了搭载 AST2500 BMC 模组主板无法正常使用独显启动 X11 图形界面的问题，使用工作站主板的桌面用户可以享受开箱体验了
-- 通过沟通 QVL（合格供应商名册, Qualified Vendor List）内容和测试基准，验证了 TC512A0 主板上高 I/O 负载时死机的起因为用户选用的内存稳定性欠佳，后续出现类似问题时可参考（即将发布的）社区 QVL 及硬件兼容性数据库，避免浪费不必要的时间和金钱
+- 排查搭载 AST2500 BMC 模组主板无法正常使用独显启动 X11 图形界面的问题并整理出了一套可用配置，使用工作站主板的桌面用户可以享受开箱体验了
+- 通过沟通龙芯主板 QVL（合格供应商名册, Qualified Vendor List）内容和测试基准，验证了 TC512A0 主板上高 I/O 负载时死机的起因为用户选用的内存稳定性欠佳，后续出现类似问题时可参考（即将发布的）社区 QVL 及硬件兼容性数据库，避免浪费不必要的时间和金钱
 - 在 Gentoo 社区 [xen0n](https://github.com/xen0n/) 同学的协助下，成功构建了 Thunderbird 邮件客户端，至此 AOSC OS 的浏览器套件补全
 - 通过更新 Rust 程序的依赖、提交上游补丁的方式，引入了许多先前无法构建的 Rust 程序，不论是系统安装、实用工具，AOSC OS 的基本系统组件日趋完整
 - 使用带有 LSX 矢量指令集扩展的工具链和 Glibc 运行时库，按照龙芯中科制定的 *Software Development and Build Convention for LoongArch&trade; Architectures*（《龙架构&trade;软件开发与构建约定》）[第 7.3 节](https://github.com/loongson/la-softdev-convention/blob/2975b325e1d31c8b52d75f9948d627343c5a454c/la-softdev-convention.adoc#73-vector-instruction-support)中关于矢量指令集扩展支持的描述，重构了整个 AOSC OS 系统仓库，默认打开 LSX 矢量指令集优化
@@ -43,7 +43,7 @@ AOSC OS 方面，我们先前启动了“合龙”工作——将目前位于前
 
 ### OpenSSL 3 更新进入稳定源
 
-经过近两个月的重构、修缮及更新工作，OpenSSL 3 运行时以进入稳定源，取代目前[已失去上游支持](https://www.openssl.org/blog/blog/2023/09/11/eol-111/)]的 OpenSSL 1.1 运行时。
+经过近两个月的重构、修缮及更新工作，OpenSSL 3 运行时以进入稳定源，取代目前[已失去上游支持](https://www.openssl.org/blog/blog/2023/09/11/eol-111/)的 OpenSSL 1.1 运行时。
 
 如果您在更新过程中遇到任何问题，请于[aosc-os-abbs 仓库报告问题](https://github.com/AOSC-Dev/aosc-os-abbs/issues/new?assignees=&labels=&projects=&template=bug-report.yml)或[社区主群组](https://t.me/aosc_main) 与我们联系；为保持对部分老软件的支持，我们依然提供 OpenSSL 1.1 兼容包 (`openssl-1.1`)，但考虑到潜在安全风险，推荐您及早将软件更新或联系发行方适配 OpenSSL 3。
 
@@ -51,11 +51,11 @@ AOSC OS 方面，我们先前启动了“合龙”工作——将目前位于前
 
 ### Vim 纳入基本系统组件
 
-多年来，AOSC OS 预装的编辑器只有 GNU Nano 及 GNU ed，但实际上，我们的贡献者和用户群体中 Vim 用户亦相当多。先前，我们认为 Vim 默认附带的依赖较多，因此没有默认预装；上周，社区贡献者杨欣辉发现，只需将目前系统中 `vim` 软件包的 gVim（即 Vim 的 GTK 图形前端）独立打包，其实剩余的部分并不会为基本系统引入新依赖。
+多年来，AOSC OS 预装的编辑器只有 GNU Nano 及 GNU ed，但实际上，我们的贡献者和用户群体中 Vim 用户亦相当多。先前，我们认为 Vim 默认附带的依赖较多，因此没有默认预装；上周，社区贡献者[杨欣辉](https://github.com/Cyanoxygen/)发现，只需将目前系统中 `vim` 软件包的 gVim（即 Vim 的 GTK 图形前端）独立打包，其实剩余的部分并不会为基本系统引入新依赖。
 
 ![Vim 9.0 主界面](/coffee-break/20231014/imgs/vim-9.0.png)
 
-因此，我们在最近的更新中将 Vim 基础包 `vim` 及图形前端 `gvim` 分开打包。这样一来，我们便可以顺理成章地 Vim 引入到 AOSC OS 的基础包中了。下一批 AOSC OS 的默认系统包将预装 Vim 编辑器，而现有用户也将在最近推送的编辑器套件包 (`editor-base`) 更新后，自动获取到 Vim 编辑器。当然，如果您不喜欢 Vim，可随时用此命令卸载：
+因此，我们在最近的更新中将 Vim 基础包 `vim` 及图形前端 `gvim` 分开打包。这样一来，我们便可以顺理成章地 Vim 引入到 AOSC OS 的基础包中了。下一批 AOSC OS 系统包将预装 Vim 编辑器，而现有用户也将在最近推送的编辑器套件包 (`editor-base`) 更新后，作为推荐依赖自动获取到 Vim 编辑器。当然，如果您不喜欢 Vim，可随时用此命令卸载：
 
 ```
 oma purge vim
@@ -93,9 +93,7 @@ curl 上周预告的[“近年来最严重安全问题”](https://github.com/cu
 - [aosc-findupdate](https://github.com/AOSC-Dev/aosc-findupdate) (`aosc-findupdate`) 更新至 0.2.1，引入龙架构 (LoongArch) 支持
 - [软件源镜像数据库](https://github.com/AOSC-Dev/aosc-os-repository-data) 更新至 20231007，新增多个镜像源数据
 - [apt-gen-list-rs](https://github.com/AOSC-Dev/apt-gen-list-rs) 软件源镜像管理工具 (`apt-gen-list`) 更新至 0.7.0，新增 Omakase 对接功能及引入龙架构 (LoongArch) 支持
-- [照妖镜](https://github.com/AOSC-Dev/treevsrepo)软件包版本比对及审计工具 (`treevsrepo`) 更新至 0.3.4，引入龙架构 (LoongArch) 支持
 - [Omakase](https://github.com/AOSC-Dev/oma) 软件包管理前端 (`oma`) 更新至 1.0.8，更新内部组件版本
-- [p-vector](https://github.com/AOSC-Dev/p-vector-rs) APT/Oma 软件源管理器 (`p-vector`) 更新至 0.3.6，修复 OpenSSL 3 兼容性并引入龙架构 (LoongArch) 支持
 - Apache Ant Java 项目构建工具 (`apache-ant`) 更新至 1.10.4
 - Apache Maven Java 项目构建工具 (`apache-maven`) 更新至 3.9.4
 - Gradle 项目构建工具 (`gradle`) 更新至 8.3，新增 Kotlin 编程支持等新特性
@@ -131,6 +129,8 @@ curl 上周预告的[“近年来最严重安全问题”](https://github.com/cu
 
 #### 周边项目
 
+- [照妖镜](https://github.com/AOSC-Dev/treevsrepo)软件包版本比对及审计工具 (`treevsrepo`) 更新至 0.3.4，引入龙架构 (LoongArch) 支持
+- [p-vector](https://github.com/AOSC-Dev/p-vector-rs) APT/Oma 软件源管理器 (`p-vector`) 更新至 0.3.6，修复 OpenSSL 3 兼容性并引入龙架构 (LoongArch) 支持
 - 社区贡献者[王江津](https://github.com/RedL0tus) 开发了一款新的壁纸元数据管理及生成工具 [wpmeta](https://github.com/AOSC-Dev/wpmeta)，新增多语言支持，后续引入的 AOSC OS 壁纸将带有多语言标题及作者名称翻译
 
 #### 开发工具
@@ -138,7 +138,7 @@ curl 上周预告的[“近年来最严重安全问题”](https://github.com/cu
 - [Autobuild3](https://github.com/AOSC-Dev/autobuild3) 半自动打包工具更新至 1.6.109
     - 按照龙芯中科制定的 *Software Development and Build Convention for LoongArch&trade; Architectures*（《龙架构&trade;软件开发与构建约定》）[第 7.3 节](https://github.com/loongson/la-softdev-convention/blob/2975b325e1d31c8b52d75f9948d627343c5a454c/la-softdev-convention.adoc#73-vector-instruction-support)中定义的兼容性规范默认打开了 LSX 矢量指令集优化
     - 将龙架构 (LoongArch) 兼容基线设置为 `loongarch64` 而非 3A5000 等处理器对应的 `la464` 核心，进而保障基于龙架构 (LoongArch) 的 2K 系列处理器支持
-    - 修复 RISC-V (`riscv64`) 在不打开链接时优化（Link-Time Optimisation，简称 LTO）时无法构建 Rust 程序的功能
+    - 修复 RISC-V (`riscv64`) 在不打开链接时优化（Link-Time Optimisation，简称 LTO）时无法构建 Rust 程序的问题
     - 默认关闭 MIPS64 R6 (`mips64r6el`) 架构 Rust 默认构建参数中的 MSA 优化以规避一处优化错误，先前，此问题导致 Rust 无法正确计算 `sha2` 系列校验值
 
 ### 尝鲜预报
@@ -162,7 +162,7 @@ sudo oma topics
 
 ### 我社 OSPP 2023 项目圆满收官
 
-经过我社导师及学生们的努力，本年度社区组织的两个 OSPP 2023 项目均已成功通过导师审阅，意味着社区判定学生成功完成了各项目所制定的任务和目标。恭喜[“Autobuild3 自动化打包测试框架”](https://summer-ospp.ac.cn/org/prodetail/23f3e0033?list=org&navpage=org)项目学生 [leedagee](https://github.com/leedagee) 及导师 [Camber Huang](https://github.com/CamberLoid)和[“自由及开源软件简中本地化工作”](https://summer-ospp.ac.cn/org/prodetail/23f3e0032?list=org&navpage=org)项目学生[刘万涛](https://github.com/LWanTao)及导师[白铭骢](https://github.com/MingcongBai)！
+经过我社导师及学生们的努力，本年度社区组织的两个 OSPP 2023 项目均已成功通过导师审阅，意味着社区判定学生成功完成了各项目所制定的任务和目标。恭喜[“Autobuild3 自动化打包测试框架”](https://summer-ospp.ac.cn/org/prodetail/23f3e0033?list=org&navpage=org)项目学生 [leedagee](https://github.com/leedagee) 及导师 [Camber Huang](https://github.com/CamberLoid) 和[“自由及开源软件简中本地化工作”](https://summer-ospp.ac.cn/org/prodetail/23f3e0032?list=org&navpage=org)项目学生[刘万涛](https://github.com/LWanTao)及导师[白铭骢](https://github.com/MingcongBai)！
 
 希望两位参与社区项目的学生能在社区和更广阔的天地，继续为各开源软件的发展和进步添砖加瓦。
 
