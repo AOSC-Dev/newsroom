@@ -51,7 +51,7 @@ AOSC OS 方面，我们先前启动了“合龙”工作——将目前位于前
 
 ### Vim 纳入基本系统组件
 
-多年来，AOSC OS 预装的编辑器只有 GNU Nano 及 GNU ed，但实际上，我们的贡献者和用户群体中 Vim 用户亦相当多。先前，我们认为 Vim 默认附带的依赖较多，因此没有默认预装；上周，社区贡献者[杨欣辉](https://github.com/Cyanoxygen/)发现，只需将目前系统中 `vim` 软件包的 gVim（即 Vim 的 GTK 图形前端）独立打包，其实剩余的部分并不会为基本系统引入新依赖。
+多年来，AOSC OS 预装的编辑器只有 GNU Nano 及 GNU ed，但实际上，我们的贡献者和用户群体中 Vim 用户亦相当多。先前，我们认为 Vim 默认附带的依赖较多，因此没有默认预装；上周，社区贡献者[杨欣辉](https://github.com/Cyanoxygen)发现，只需将目前系统中 `vim` 软件包的 gVim（即 Vim 的 GTK 图形前端）独立打包，其实剩余的部分并不会为基本系统引入新依赖。
 
 ![Vim 9.0 主界面](/coffee-break/20231014/imgs/vim-9.0.png)
 

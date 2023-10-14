@@ -51,7 +51,7 @@ Should you run into problems during the update, please [file an issue](https://g
 
 ### Vim to Become Part of the Base System
 
-For many years, GNU Nano and GNU ed were the only two editors pre-installed with AOSC OS, despite many Vim users amongst our contributors and users. This was due to our assumption that, by preinstalling Vim, it will pull in a large amount of extra dependencies. Last week, [Cinhi Young](https://github.com/Cyanoxygen/) discovered that, by splitting gVim (Vim's GTK-based graphical frontend) out of the current `vim` package, it would not introduce much dependencies into the base system at all.
+For many years, GNU Nano and GNU ed were the only two editors pre-installed with AOSC OS, despite many Vim users amongst our contributors and users. This was due to our assumption that, by preinstalling Vim, it will pull in a large amount of extra dependencies. Last week, [Cinhi Young](https://github.com/Cyanoxygen) discovered that, by splitting gVim (Vim's GTK-based graphical frontend) out of the current `vim` package, it would not introduce much dependencies into the base system at all.
 
 ![Vim 9.0](/coffee-break/20231014/imgs/vim-9.0.en.png)
 
