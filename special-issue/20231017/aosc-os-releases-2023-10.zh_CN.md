@@ -41,7 +41,7 @@ AOSC OS 发布新一批系统发行
 常联系
 ----
 
-我们十分重视 AOSC OS 的使用体验，欢迎来我社各聊天群组分享使用体验或于我们的源码仓库[报告问题](https://github.com/AOSC-Dev/aosc-os-abbs/issues/new?assignees=&labels=&projects=&template=bug-report.yml)，我们将尽一切努力持续为您营造轻松愉快的使用体验。
+欢迎来我社各聊天群组分享使用体验或于我们的源码仓库[报告问题](https://github.com/AOSC-Dev/aosc-os-abbs/issues/new?assignees=&labels=&projects=&template=bug-report.yml)，我们将尽一切努力持续为您营造轻松愉快的使用体验。
 
 ### 微信群
 
