@@ -157,7 +157,7 @@ AOSC 是由志愿者在业余时间组织和驱动的社区，想法众多但人
 
 ### 微信群
 
-![wechat](/coffee-break/20231028/imgs/wechat.jpg)
+![wechat](/coffee-break/20231028/imgs/wechat.png)
 
 ### QQ 群
 
