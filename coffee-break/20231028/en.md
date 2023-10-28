@@ -17,7 +17,7 @@ Recently, we released a new wave of AOSC OS system releases. This wave contains 
 
 You may obtain AOSC OS from our downloads page: [https://aosc.io/downloads](https://aosc.io/downloads)
 
-![AOSC OS Desktop.](/coffee-break/20231028/imgs/desktop.zh_CN.png)
+![AOSC OS Desktop.](/coffee-break/20231028/imgs/desktop.en.png)
 
 New Features
 ----
@@ -61,7 +61,7 @@ Thank you for your submissions and enjoy!
 
 In late August, we introduced [new visual IDs for our system distributions](https://github.com/AOSC-Dev/newsroom/blob/master/coffee-break/20230825/en.md#new-visual-ids-for-system-distributions), including new logos for AOSC OS and Afterglow, our legacy-device-optimised distribution. Recently, we have update our system brandings in accordance with the new visual IDs:
 
-![AOSC OS adorned with the new logo.](/coffee-break/20231028/imgs/branding.zh_CN.png)
+![AOSC OS adorned with the new logo.](/coffee-break/20231028/imgs/branding.en.png)
 
 ### Updates from the Frontier: Mainlining LoongArch
 
