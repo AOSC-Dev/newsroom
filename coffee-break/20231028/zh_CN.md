@@ -20,13 +20,13 @@ AOSC OS 快讯
 
 #### 系统特性
 
-本次发行更新囊括许多新特性和使用体验改进，其中最为明显的是新增了社区开发的 [Omakase 软件包管理前端](https://github.com/AOSC-Dev/oma)，改善管理系统组件的易用性和可靠性；更新了内核、图形栈、音频栈等关键硬件支持组件，确保在新硬件上的使用体验；我们也对系统各关键组件进行了修缮和更新，主要的几项有：
+本次发行更新囊括许多新特性和使用体验改进，其中最为明显的是新增了社区开发的 [Omakase 软件包管理前端](https://github.com/AOSC-Dev/oma)，让系统组件的管理更方便、可靠；更新了内核、图形栈、音频栈等关键硬件支持组件，确保在新硬件上的使用体验；我们也对系统各关键组件进行了修缮和更新，主要的几项有：
 
-- Linux 内核更新至 6.4 分支，同时提供 6.1 长期支持分支，确保新硬件上的系统体验；另有引入一系列针对 Microsoft Surface、华为擎云 W510 和飞腾 D2000/8 系列设备的补丁，改善这些设备上的开箱使用体验
-- Core 11.0.1，包含最新核心运行时库及工具链，如包含更多架构支持及指令集优化的 Glibc 2.37 和支持各类最新的语言特性的 GCC 13.2.0
+- 更新 Linux 内核至 6.4 分支，同时提供 6.1 长期支持分支，确保新硬件上的系统体验；另有引入一系列针对 Microsoft Surface、华为擎云 W510 和飞腾 D2000/8 系列设备的补丁，改善这些设备上的开箱使用体验
+- Core 更新至 11.0.1，包含最新核心运行时库及工具链，如包含更多架构支持及指令集优化的 Glibc 2.37 和支持各类最新语言特性的 GCC 13.2.0
 - 引入 OpenSSL 3.1.1 运行时，包含最新的算法库及安全修复
 - 更新预装浏览器套件，包括 Mozilla Firefox 117.0.1 及 Thunderbird 115.2.2
-- KDE Plasma 桌面套件更新，包含截至 2022 年底的最新版本，对默认使用体验和性能进行了调优
+- 更新 KDE Plasma 桌面套件，包含截至 2022 年底的最新版本，对默认使用体验和性能进行了调优
 - 增强默认命令提示符功能，如增加 SSH 远程命令行标记、优化 Git 提示符和规范化启动脚本等
 - 增强默认编辑器功能，在 GNU Nano 的基础上附加预装 Vim 编辑器
 
@@ -43,7 +43,7 @@ AOSC OS 快讯
 
 ### 2023 上半年壁纸包更新发布
 
-上周，我们发布了 2023 上半年的壁纸包更新，引入十张得票最高的来自社区好友的投稿，更换了桌面版 (Desktop) 系统的默认壁纸。
+上周，我们发布了 2023 上半年的壁纸包更新，引入十张得票最高的社区好友投稿，更换了桌面版 (Desktop) 系统的默认壁纸。
 
 ![2023 上半年新壁纸](/coffee-break/20231028/imgs/2023h1-wallpapers.jpg)
 
@@ -92,17 +92,17 @@ AOSC OS 方面，我们先前启动了“合龙”工作——将目前位于前
 
 过去两周，AOSC OS 软件仓库中新增如下软件包：
 
-- Dua (`dua`)：命令行存储占用可视化工具
-- NVIDIA X 控制库 (`libxnvctrl`, `libxnvctrl+32`)：用于在其他应用读取 NVIDIA 显卡设置和信息
+- Dua (`dua`)：命令行磁盘占用分析及可视化工具
+- NVIDIA X 控制库 (`libxnvctrl`, `libxnvctrl+32`)：用于读取 NVIDIA 显卡设置和信息
 - Pivy (`pivy`)：Coin3D 的 Python 语言绑定库
-- [repo-refresh](https://github.com/AOSC-Dev/scriptlets/tree/master/repo-refresh) (`repo-refresh`)：通用系统更新查询工具
+- [repo-refresh](https://github.com/AOSC-Dev/scriptlets/tree/master/repo-refresh) (`repo-refresh`)：本地软件源数据刷新工具
 - 壁纸元数据生成器 (`wpmeta`)：用于生成 AOSC OS 壁纸包
 
 #### 周边项目
 
 - 系统安装器 ([DeployKit](https://github.com/AOSC-Dev/aoscdk-rs)) 发布 0.9.9 版，优化了虚拟内存文件 (swapfile) 默认大小的计算逻辑，在小内存设备上默认设置更为合理
 - 社区开发者[傅孝元](https://github.com/eatradish)和[杨欣辉](https://github.com/Cyanoxygen)开始为软件包查询网站后端实现 PostgreSQL 后端，以期提高服务稳定性
-- 社区开发者[杨欣辉](https://github.com/Cyanoxygen)开发了一款基于 PL/pgSQL 开发的 [dpkg](https://wiki.debian.org/dpkg) 软件包版本比较库
+- 社区开发者[杨欣辉](https://github.com/Cyanoxygen)开发了一款基于 PL/pgSQL 的 [dpkg](https://wiki.debian.org/dpkg) 软件包版本比较库，[dpkg-vercmp-plpgsql](https://github.com/AOSC-Dev/dpkg-vercmp-plpgsql)
 - 软件源元数据刷新工具 [p-vector-rs](https://github.com/AOSC-Dev/p-vector-rs) 新增由社区开发者[柴天浩](https://github.com/cthbleachbit)实现的最新版及旧版软件包查询及分列逻辑
 - 软件及系统发行源管理工具 [RepoKit](https://github.com/AOSC-Dev/repokit) 修复增量刷新功能，并引入基于 xz 元数据快速计算解压后大小的功能
 - “抽票投奖”抽奖工具 [choupiaotoujiang](https://github.com/AOSC-Dev/choupiaotoujiang) 换用更为轻量的 `fastrand` 随机库
@@ -110,7 +110,7 @@ AOSC OS 方面，我们先前启动了“合龙”工作——将目前位于前
 
 #### 开发工具
 
-- [Autobuild3](https://github.com/AOSC-Dev/autobuild3) 发布 1.7.2 版，正式加入由社区开发者 [leedagee](https://github.com/leedagee) 开发的[软件包测试框架](https://wiki.aosc.io/developer/packaging/autobuild3-testing-framework/)，该框架将在不久的未来默认开启，作为提高系统软件包质量的又一手段
+- [Autobuild3](https://github.com/AOSC-Dev/autobuild3) 发布 1.7.2 版，正式加入由社区开发者 [leedagee](https://github.com/leedagee) 在[“开源之夏”](https://summer-ospp.ac.cn/)期间开发的[软件包测试框架](https://wiki.aosc.io/developer/packaging/autobuild3-testing-framework/)，框架将在不久的未来默认开启，作为提高系统软件包质量的又一手段
 - 容器化打包环境管理工具 [Ciel](https://github.com/AOSC-Dev/ciel-rs) 发布 3.2.1 版，修复基于 MIPS 的龙芯三号 (`loongson3`) 系统上的架构探测功能
 
 ### 尝鲜预报
@@ -119,6 +119,7 @@ AOSC OS 方面，我们先前启动了“合龙”工作——将目前位于前
 
 - **Bash 基础配置 0.5.2.2 版 (`bash-config-0.5.2.2`)：** 修复非登录会话 (non-login session) 中未正确设置新文件权限位 (`umask`) 的问题，并将当前用户的 `~/.local/bin` 加入默认可执行文件搜索路径 (`$PATH`)
 - **Boost 1.83 (`boost-1.83`)：** 将 Boost 运行时库更新至 1.83 并更新或重构相关软件，提升对部分新 C++ 程序源码的兼容性
+- **[Mirrormgr](https://github.com/AOSC-Dev/mirrormgr) 0.8.0 (`mirrormgr-0.8.0`)：** 软件源镜像管理器，包含基于选单的新界面，后续将替代现有的 `apt-gen-list`
 
 这些测试源也将同步至我们的龙架构 (LoongArch) 前沿分支 (`frontier`)，并为正式引入龙架构支持做准备。
 
@@ -137,7 +138,7 @@ sudo oma topics
 
 > 编者按：拖这么久了，也许有必要解释下为什么这期《聊斋》为何迟迟没有发布——考虑到目前社区正与龙芯中科的工程师协同调试使用过程中遇到的问题，我们不希望在有关问题得到解决或得出初步结论之前草率地进行讨论或吐槽；此外，遇到的问题和解决过程记录较长，我们目前希望更系统性地整理该刊内容，并分期发布，方便读者阅读。在一切就绪后，《聊斋》中遇到的每个问题将附有解决方案、或对问题原因的分析，以期最大化此类内容的建设性。感谢各位读者的理解和耐心！
 
-过去几个月中，社区贡献者陆续购买了数台搭载龙芯 3A5000 及 3A6000 设备，用于各种不同场景。那么，龙架构 (LoongArch) 加持的龙芯设备的使用体验如何呢？敬请期待《聊斋》创刊号！
+过去几个月中，社区贡献者陆续购买了数台搭载龙芯 3A5000 及 3A6000 的设备，用于各种不同场景。那么，龙架构 (LoongArch) 加持的龙芯设备的使用体验如何呢？敬请期待《聊斋》创刊号！
 
 ![AOSCC 2023 会场上的龙芯 3A5000 台式机](/coffee-break/20231028/imgs/3a5000.jpg)
 
