@@ -32,7 +32,7 @@ AOSC OS 快讯
 
 ### Omakase 1.1 发布
 
-经过数个月的开发，AOSC OS 的默认软件包管理工具 Omakase 终于迎来了第一个特性更新！Omakase 1.1 在修复 1.0 分支中存在的一些设计、开发和使用问题的同时，引入了许多便利用户的特性：
+经过数个月的开发，AOSC OS 的默认软件包管理工具 [Omakase](https://github.com/AOSC-Dev/oma) 终于迎来了第一个特性更新！Omakase 1.1 在修复 1.0 分支中存在的一些设计、开发和使用问题的同时，引入了许多便利用户的特性：
 
 - **系统集成：** 自动检查电源条件，控制系统电源及会话管理，有效避免意外故障
 - **界面进化：** 重新设计历史及撤销功能，操作历史、回放及撤销界面更简明易懂；各项操作确认后，向终端回显操作内容，以便查阅
@@ -57,13 +57,13 @@ oma install aosc-community-wallpapers-extras-2023
 
 ### “改朝换代”：系统徽标更新
 
-八月底，我们推出了社区发行版的新视觉 ID 设计，包含 AOSC OS 和老旧设备专版“星霞” (Afterglow) 的新徽标。近期，我们通过系统徽标套件更新引入了这些新 Logo，效果如图：
+八月底，我们推出了社区发行版的[新视觉 ID 设计](https://github.com/AOSC-Dev/newsroom/blob/master/coffee-break/20230825/zh_CN.md#%E5%8F%91%E8%A1%8C%E7%89%88%E6%96%B0%E8%A7%86%E8%A7%89-id)，包含 AOSC OS 和老旧设备专版“星霞” (Afterglow) 的新徽标。近期，我们通过系统徽标套件更新引入了这些新 Logo，效果如图：
 
 ![AOSC OS 新徽标展示](/coffee-break/20231028/imgs/branding.zh_CN.png)
 
 ### 持续推进 AOSC OS“合龙”
 
-AOSC OS 方面，我们先前启动了“合龙”工作——将目前位于前沿分支 (`frontier`) 中的移植工作合并到稳定分支 (`stable`) 中。在未来数个月中，我们将就两个分支中的源码及配置差异进行[审阅、测试及合并工作](https://github.com/AOSC-Dev/aosc-os-abbs/pull/4701)，直到 LoongArch 架构构建配置等成为稳定系统的一部分。
+先前，我们启动了“合龙”工作——将目前位于前沿分支 (`frontier`) 中的移植工作合并到稳定分支 (`stable`) 中。在未来数个月中，我们将就两个分支中的源码及配置差异进行[审阅、测试及合并工作](https://github.com/AOSC-Dev/aosc-os-abbs/pull/4701)，直到 LoongArch 架构构建配置等成为稳定系统的一部分。
 
 目前，用于 LoongArch 的实验性系统发行已经可以从[社区主页下载](https://aosc.io/zh-cn/downloads)，欢迎试用并提供反馈，亦欢迎有志之士加入“合龙”工作！
 
@@ -101,9 +101,9 @@ AOSC OS 方面，我们先前启动了“合龙”工作——将目前位于前
 #### 周边项目
 
 - 系统安装器 ([DeployKit](https://github.com/AOSC-Dev/aoscdk-rs)) 发布 0.9.9 版，优化了虚拟内存文件 (swapfile) 默认大小的计算逻辑，在小内存设备上默认设置更为合理
-- 社区开发者[傅孝元](https://github.com/eatradish)和[杨欣辉](https://github.com/Cyanoxygen)开始为软件包查询网站后端实现 PostgreSQL 后端，以期提高服务稳定性
+- 社区开发者[傅孝元](https://github.com/eatradish)和[杨欣辉](https://github.com/Cyanoxygen)开始为[软件包信息查询网站](https://packages.aosc.io/)后端实现 PostgreSQL 后端，以期提高服务稳定性
 - 社区开发者[杨欣辉](https://github.com/Cyanoxygen)开发了一款基于 PL/pgSQL 的 [dpkg](https://wiki.debian.org/dpkg) 软件包版本比较库，[dpkg-vercmp-plpgsql](https://github.com/AOSC-Dev/dpkg-vercmp-plpgsql)
-- 软件源元数据刷新工具 [p-vector-rs](https://github.com/AOSC-Dev/p-vector-rs) 新增由社区开发者[柴天浩](https://github.com/cthbleachbit)实现的最新版及旧版软件包查询及分列逻辑
+- 软件源管理工具 [p-vector-rs](https://github.com/AOSC-Dev/p-vector-rs) 新增由社区开发者[柴天浩](https://github.com/cthbleachbit)实现的最新版及旧版软件包查询及分列逻辑
 - 软件及系统发行源管理工具 [RepoKit](https://github.com/AOSC-Dev/repokit) 修复增量刷新功能，并引入基于 xz 元数据快速计算解压后大小的功能
 - “抽票投奖”抽奖工具 [choupiaotoujiang](https://github.com/AOSC-Dev/choupiaotoujiang) 换用更为轻量的 `fastrand` 随机库
 - 社区开发者[柴天浩](https://github.com/cthbleachbit)开发了一款将内存稳定性测试工具 `stressapptest` 集成至初始化内存盘中的 [Dracut 模块](https://github.com/AOSC-Dev/dracut-stressapptest)，后续可用于在非 x86 设备上集成内存测试功能
