@@ -92,7 +92,7 @@ A good number of updates made it into AOSC OS in the past two weeks, here are a 
 
 #### New Packages
 
-过去两周，AOSC OS 软件仓库中新增如下软件包：
+We introduced a few packages into the AOSC OS repository in the past two weeks:
 
 - Dua (`dua`) - A command-line desktop usage analyzer and visualiser.
 - NVIDIA X Control Library (`libxnvctrl`, `libxnvctrl+32`) - For reading NVIDIA GPU configuration and status.
