@@ -16,7 +16,7 @@ AOSC OS 快讯
 
 ![Mac mini M1 运行 AOSC OS](/coffee-break/20231111/imgs/apple-silicon.jpg)
 
-目前，AOSC OS 的 Apple Silicon 支持尚出于早期预览阶段，许多基础支持功能和细节配置有待完善。我们计划在未来数周内逐步完善各方面支持，给 Apple Silicon 用户提供稳定的使用体验。
+目前，AOSC OS 的 Apple Silicon 支持尚处于早期预览阶段，许多基础支持功能和细节配置有待完善。我们计划在未来数周内逐步完善各方面支持，给 Apple Silicon 用户提供稳定的使用体验。
 
 您可以在 macOS Ventura (13) 及以上版本系统使用如下命令安装 AOSC OS：
 
