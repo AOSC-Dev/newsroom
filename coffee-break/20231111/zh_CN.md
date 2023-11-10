@@ -12,7 +12,7 @@ AOSC OS 快讯
 
 ### Apple Silicon 版 AOSC OS 预览系统发布
 
-至截稿时，我们已经基本实现了搭载 Apple Silicon 的苹果电脑的 AOSC OS 安装器，[aosc-asahi-installer](https://github.com/AOSC-Dev/aosc-asahi-installer)。该安装器基于 [Asahi Linux 项目](https://asahilinux.org/) 的 [asahi-installer](https://github.com/AsahiLinux/asahi-installer) 支持从 macOS 系统安装 AOSC OS 的三大版本：桌面版 (Desktop)、基础版 (Base) 和服务器版 (Server)。
+至截稿时，我们已经为搭载 Apple Silicon 的苹果电脑基本实现了 AOSC OS 安装器：[aosc-asahi-installer](https://github.com/AOSC-Dev/aosc-asahi-installer)。该安装器基于 [Asahi Linux 项目](https://asahilinux.org/) 的 [asahi-installer](https://github.com/AsahiLinux/asahi-installer)，支持从 macOS 系统安装 AOSC OS 的三大版本：桌面版 (Desktop)、基础版 (Base) 和服务器版 (Server)。
 
 ![Mac mini M1 运行 AOSC OS](/coffee-break/20231111/imgs/apple-silicon.jpg)
 
