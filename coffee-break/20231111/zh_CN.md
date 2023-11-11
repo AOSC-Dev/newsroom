@@ -1,4 +1,4 @@
-安记冰室・十月下
+安记冰室・十一月上
 ================
 
 > “你家活莫斯？”
@@ -38,7 +38,7 @@ curl https://raw.githubusercontent.com/AOSC-Dev/aosc-asahi-installer/master/inst
 
 - 命令行有道词典 (`ydcv-rs`) 更新至 0.6.1，适配最新有道词典 API
 - Bash 基础配置 (`bash-startup`) 更新至 0.5.2.4，新增自定义命令历史大小的支持
-- NVIDIA 显卡驱动更新至 545.29.02，为 Linux 内核 6.6 更新作准备
+- NVIDIA 显卡驱动 (`nvidia`, `nvidia+32`) 更新至 545.29.02，为 Linux 内核 6.6 更新作准备
 - Discord 聊天、语音及直播软件更新至 0.0.34
 - NVIDIA X 控制库 (`libxnvctrl`, `libxnvctrl+32`) 更新至 545.23.06，修复运行时库没有正确创建软链接的问题
 - Feishin 流媒体服务客户端 (`feishin`) 更新至 0.4.1
@@ -58,9 +58,9 @@ curl https://raw.githubusercontent.com/AOSC-Dev/aosc-asahi-installer/master/inst
 - **Boost 1.83 (`boost-1.83`)：** 将 Boost 运行时库更新至 1.83 并更新或重构相关软件，提升对部分新 C++ 程序源码的兼容性
 - **十月图形栈套件更新 (`graphical-stack-survey-20231031`)：** 引入大量图形栈组件更新，修缮新硬件支持并提高稳定性；修复 Firefox 视频硬件解码支持，提高多媒体浏览体验
 - **libpaper 2.1.0 (`libpaper-2.1.0`)：** 更新纸张尺寸信息和分页支持库至 2.1.0 分支
-- **Linux 内核 6.6 (`linux-kernel-6.6`)：** 将 Linux 内核更新至 6.6 分支，新增硬件支持（如在 RISC-V 上打开 ACPI 支持，新增龙架构配置等），引入性能优化等（如在 x86_64 架构内核上关闭先前因为疏忽打开的调度器调试支持`CONFIG_DEBUG_PREEMPT`，提高调度性能）
+- **Linux 内核 6.6 (`linux-kernel-6.6`)：** 将 Linux 内核更新至 6.6 分支，新增硬件支持（如在 RISC-V 上打开 ACPI 支持，新增龙架构配置等），引入性能优化等（如在 x86_64 架构内核上关闭先前因为疏忽打开的调度器调试支持`CONFIG_DEBUG_PREEMPT`，加速应用启动）
 - **MIPS 龙芯修缮 (`loongson3-fixup-2`)：** 为龙芯专版 GRUB (`grub-loongson3`) 新增 `update-grub` 命令，默认为板载显卡选用 `loongson` 驱动，关闭 LevelDB 的 tcmalloc 支持以修复中州韵 (RIME) 输入法崩溃的问题等
-- **signing-party (`signing-party-new`)：** 新增 signing-party 包，方便用户参加 PGP 签名派对等社交场合
+- **signing-party (`signing-party-new`)：** 引入 `signing-party` 包，方便用户参加 PGP 签名派对等社交场合
 - **systemd 254 (`systemd-254`)：** 将 systemd 更新至 254.5，为所有架构打开 EFI 支持，新增用于重载 binfmt（额外二进制格式支持）配置的触发器脚本（在安装其他包含 binfmt 配置的包时会自动重载配置）
 
 
