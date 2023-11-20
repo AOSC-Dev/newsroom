@@ -1,7 +1,7 @@
 AOSC OS for Apple Silicon Now Available
 ====
 
-![AOSC OS at the Apple Startup Manager.](special-issue/20231120/imgs/apple-silicon.jpg)
+![AOSC OS at the Apple Startup Manager.](/special-issue/20231120/imgs/apple-silicon.jpg)
 
 AOSC OS for Apple Silicon is now available for most M1 or M2 based Macs. This
 round of release will work out of the box on most M1-based systems[^1], with

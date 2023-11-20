@@ -1,7 +1,7 @@
 Apple Silicon 版 AOSC OS 系统发布
 ====
 
-![安同OS，启动！](special-issue/20231120/imgs/apple-silicon.jpg)
+![安同OS，启动！](/special-issue/20231120/imgs/apple-silicon.jpg)
 
 Apple Silicon 版 AOSC OS 系统发布，搭载 M1 或 M2 芯片的 Mac 电脑用户现可安装 AOSC OS 系统。目前的系统在绝大多数基于 M1 芯片的设备开箱即用[^1]，除 OpenGL 图形加速[^2]和 Thunderbolt[^3] 外，内置存储、各接口、音频、Wi-Fi 和摄像头等内置设备均可使用。M2 支持仍在完善中[^4]，M3 支持即将发布。
 
