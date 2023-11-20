@@ -16,7 +16,7 @@ AOSC OS:
 curl https://releases.aosc.io/install-asahi | sh
 ```
 
-If you ran into any issues whilst installing or using AOSC OS, please
+Should you run into any issues whilst installing or using AOSC OS, please
 [file an issue](https://github.com/AOSC-Dev/aosc-os-abbs/issues/new?assignees=&labels=&projects=&template=bug-report.yml) 
 or get in touch with us via the channels listed below.
 
