@@ -45,10 +45,7 @@ Please scan this QR code and note that you would like to join our community chat
 
 ----
 
-- [^1] Due to [an macOS issue](https://github.com/AsahiLinux/docs/wiki/macOS-Sonoma-Boot-Failures),
-  you may not be able to install AOSC OS on 14" or 16" MacBook Pro models with ProMotion displays.
-- [^2] OpenGL support will be added with Mesa 24, this version is expected to be
-  released later this year or in early 2024.
-- [^3] Thunderbolt support is not currently planned.
-- [^4] To see the progress on M2 support, please refer to Asahi Linux's
-[project documentation](https://github.com/AsahiLinux/docs/wiki/M2-Series-Feature-Support)。
+[^1]: Due to [an macOS issue](https://github.com/AsahiLinux/docs/wiki/macOS-Sonoma-Boot-Failures), you may not be able to install AOSC OS on 14" or 16" MacBook Pro models with ProMotion displays.
+[^2]: OpenGL support will be added with Mesa 24, this version is expected to be released later this year or in early 2024.
+[^3]: Thunderbolt support is not currently planned.
+[^4]: To see the progress on M2 support, please refer to Asahi Linux's [project documentation](https://github.com/AsahiLinux/docs/wiki/M2-Series-Feature-Support)。

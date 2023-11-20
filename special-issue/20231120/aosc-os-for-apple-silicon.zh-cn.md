@@ -38,7 +38,7 @@ curl https://releases.aosc.io/install-asahi | sh
 
 ----
 
-- [^1] 由于某个 [在 macOS 中发现的问题](https://github.com/AsahiLinux/docs/wiki/macOS-Sonoma-Boot-Failures)，搭载 ProMotion 屏幕的 14 和 16 寸 MacBook Pro 可能无法安装 AOSC OS，目前安装程序会自动探测相关设备并报错。
-- [^2] OpenGL 支持将于 Mesa 24 中正式加入，该版本预计年底或 2024 年初发布。
-- [^3] Thunderbolt 支持暂无日程。
-- [^4] M2 设备支持进展请见 Asahi Linux [官方文档](https://github.com/AsahiLinux/docs/wiki/M2-Series-Feature-Support)。
+[^1]: 由于某个 [在 macOS 中发现的问题](https://github.com/AsahiLinux/docs/wiki/macOS-Sonoma-Boot-Failures)，搭载 ProMotion 屏幕的 14 和 16 寸 MacBook Pro 可能无法安装 AOSC OS，目前安装程序会自动探测相关设备并报错。
+[^2]: OpenGL 支持将于 Mesa 24 中正式加入，该版本预计年底或 2024 年初发布。
+[^3]: Thunderbolt 支持暂无日程。
+[^4]: M2 设备支持进展请见 Asahi Linux [官方文档](https://github.com/AsahiLinux/docs/wiki/M2-Series-Feature-Support)。
