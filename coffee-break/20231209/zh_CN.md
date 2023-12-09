@@ -100,7 +100,7 @@ AOSC OS 快讯
 #### 周边项目
 
 - Apple Silicon 设备启动及管理脚本 ([asahi-scripts](https://github.com/AOSC-Dev/asahi-scripts))：[杨欣辉](https://github.com/Cyanoxygen) 实现了虚拟内存交换文件 (swapfile) 创建逻辑并改进分区 ID 随机化和记录流程；初次启动配置更可靠、修复先前安装 AOSC OS 后没有虚拟内存文件的问题，改善高负载下系统稳定性和响应度
-- Bash 基础配置 ([bash-config](https://github.com/AOSC-Dev/bash-config)) 发布 0.6.1 版：[白铭骢](https://github.com/MingcongBai) 将用于切换到上级目录的语法糖扩展至 5 层（先前只能切换到上 3 层），使用 `......` 即可切换到上 5 层目录
+- Bash 基础配置 ([bash-config](https://github.com/AOSC-Dev/bash-config)) 发布 0.6.2 版：[白铭骢](https://github.com/MingcongBai) 将用于切换到上级目录的语法糖扩展至 5 层（先前只能切换到上 3 层），使用 `......` 即可切换到上 5 层目录；默认关闭可执行路径哈希记录 (executable PATH hashing) 功能，以免在多个可执行路径下存在同名命令时出现执行命令时选用可执行路径 `$PATH` 变量中记录顺序不一致的问题
 
 ### 尝鲜预报
 
