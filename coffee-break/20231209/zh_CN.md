@@ -110,6 +110,7 @@ AOSC OS 快讯
 - **MIPS 龙芯修缮 (`loongson3-fixup-2`)：** 为龙芯专版 GRUB (`grub-loongson3`) 新增 `update-grub` 命令，默认为板载显卡选用 `loongson` 驱动，关闭 LevelDB 的 tcmalloc 支持以修复中州韵 (RIME) 输入法崩溃的问题等
 - **十一月底 Mozilla 套件更新 (`mozilla-survey-20231122`)：** 更新 Firefox 浏览器至 112.0、Thunderbird 邮件客户端至 115.5.0，为所有主线架构打开硬件视频编解码加速支持及 OpenH264 编解码器支持，允许在支持 WebRTC 特性的架构上使用视讯会议平台
 - **signing-party (`signing-party-new`)：** 引入 `signing-party` 包，方便用户参加 PGP 签名派对等社交场合
+- **鸭子 (Yazi) 命令行文件管理器 (`yazi-new`)：** 引入鸭子命令行文件管理器 (`yazi`)
 
 这些测试源也将同步至我们的龙架构 (LoongArch) 前沿分支 (`frontier`)，并为正式引入龙架构支持做准备。
 
