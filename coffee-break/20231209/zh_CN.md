@@ -77,7 +77,7 @@ AOSC OS 快讯
 感谢这两周参与 AOSC OS 维护工作的各位同事（按字母顺序）：
 
 - [salieri](https://github.com/BC204)
-- [chenx97](https://github.com/chenx97)
+- [Henry Chen](https://github.com/chenx97)
 - [傅孝元](https://github.com/eatradish)
 - [Felix Yan](https://github.com/felixonmars)
 - [HouLiXieBuRou](https://github.com/HouLiXieBuRou)
