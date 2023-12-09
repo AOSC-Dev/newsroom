@@ -80,7 +80,7 @@ AOSC OS 快讯
 - [Henry Chen](https://github.com/chenx97)
 - [傅孝元](https://github.com/eatradish)
 - [Felix Yan](https://github.com/felixonmars)
-- [HouLiXieBuRou](https://github.com/HouLiXieBuRou)
+- [德州润华](https://github.com/HouLiXieBuRou)
 - [Icenowy Zheng](https://github.com/Icenowy)
 - [陈嘉杰 (jiegec)](https://github.com/jiegec)
 - [白铭骢](https://github.com/MingcongBai)
