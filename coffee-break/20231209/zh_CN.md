@@ -43,7 +43,7 @@ AOSC OS 快讯
 
 过去两周中我们为 AOSC OS 推送了许多更新，这里简要介绍其中几项：
 
-- [oma](https://github.com/AOSC-Dev/oma) 包管理前端更新至 1.2.2，引入数个新特性及修复（见上文“oma 1.2 发布”）
+- [oma](https://github.com/AOSC-Dev/oma) 包管理前端更新至 1.2.4，引入数个新特性及修复（见上文“oma 1.2 发布”）
 - LLVM 运行时及工具链（`llvm`, `llvm-runtime`；Clang, LLDB, LLD 等）更新至 17.0.6，引入数个新架构支持特性和修复
 - Fcitx 5 (`fcitx5-*`) 及中州韵输入法各组件 (`rime-*`) 更新至最新版本，引入新特性和改进并修复中州韵输入时系统日志输出大量错误的问题
 - Discord 聊天、语音及直播软件 (`discord`) 更新至 0.0.37
