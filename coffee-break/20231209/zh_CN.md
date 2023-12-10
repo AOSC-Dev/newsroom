@@ -15,7 +15,7 @@ AOSC OS 快讯
 近日，社区开发者 [傅孝元](https://github.com/eatradish) 发布了 oma 1.2 版，该版引入了如下几个特性：
 
 - 大幅度改善报错和调试信息，方便用户和开发者解决使用过程中遇到的问题
-- 新增 --sysroot= 参数，允许管理设备中安装的其他 AOSC OS 系统或容器
+- 新增 `--sysroot=` 参数，允许管理设备中安装的其他 AOSC OS 系统或容器
 
 此外，随着 1.2 的发布，我们决定将 Omakase 更名为 oma，摒弃之前名不副实的 Omakase 命名。Omakase 最初的设计类似 Nix，基于中心配置重新组装系统，而目前的实现相对传统，即由用户“点单”安装软件包的设计显然和 Omakase 指代的“厨师发办”意思相悖。
 
@@ -27,8 +27,7 @@ AOSC OS 快讯
 
 近年来，龙架构 (LoongArch) 已逐渐替代 MIPS 架构，成为龙芯处理器的核心指令集架构。然而，先前许多龙芯爱好者手上依然有基于 MIPS 的 1000 至 4000 系列龙芯，甚至有古董电脑玩家手上依然有龙芯 2F 机器（如龙梦的逸珑 8089 上网本）。我社发行版依然支持这些 MIPS 龙芯设备，且计划在未来数年内继续提供支持：其中，AOSC OS 主线发行支持龙芯三号 1000 - 4000 系列；面向老旧设备的星霞 OS (Afterglow) 则支持龙芯 2F。然而，开源软件更新和修复频繁且代码量不断增大，这给我社唯一一台 MIPS 龙芯编译服务器带来不小压力。
 
-![刚从海鲜市场整来的双路 3B4000 服务器主板](/coffee-break/20231209/imgs/3b4000.jpg)
-
+-
 为提高 MIPS 龙芯架构的维护算力，我社发起募捐并计划组装一台新龙芯 3B4000 双路服务器。社区好友慷慨解囊，捐钱捐物，在一天内我们便集齐了所需硬件和款项。目前各种零件还在路上，我们计划在下周完成组装并将这台新服务器投入生产，为持续维护 AOSC OS 和星霞提供新的动力。
 
 ### 持续推进 AOSC OS“合龙”
@@ -93,7 +92,7 @@ AOSC OS 快讯
 - [Autobuild3](https://github.com/AOSC-Dev/autobuild3) 半自动打包工具发布 1.7.6 版：[白铭骢](https://github.com/MingcongBai) 修复了某些软件包因为 `TZ` 时区设置变量未设定时无法编译的问题（默认设置 `TZ=UTC`）
 - [mirrormgr](https://github.com/AOSC-Dev/mirrormgr) 软件包源镜像管理器发布 0.9.0 版：[傅孝元](https://github.com/eatradish) 新增测试源刷新功能
 - [pushpkg](https://github.com/AOSC-Dev/scriptlets/tree/master/pushpkg) 软件包推送工具发布 0+git20231129 版：[Felix Yan](https://github.com/felixonmars) 新增 `-i` (`--identity-file`) 选项，允许在推送软件包时指定非标准位置存放的私钥文件
-- [照妖镜 (treevsrepo)](https://github.com/AOSC-Dev/treevsrepo) 软件包版本比对工具引入许多新特性和修复：其中 [陈嘉杰 (jiegec)](https://github.com/jiegec) 为 treevsrepo 引入了测试源 (topic ) 版本比对支持、修复了 Epoch 比对行为不正确的问题并修复软件包变种版本比对时未参考具体对应架构的问题；[傅孝元](https://github.com/eatradish) 修复了探测软件源中某些软件包无法比对的问题
+- [照妖镜 (treevsrepo)](https://github.com/AOSC-Dev/treevsrepo) 软件包版本比对工具引入许多新特性和修复：其中 [陈嘉杰 (jiegec)](https://github.com/jiegec) 为 treevsrepo 引入了测试源 (topic) 版本比对支持、修复了 Epoch 比对行为不正确的问题并修复软件包变种版本比对时未参考具体对应架构的问题；[傅孝元](https://github.com/eatradish) 修复了探测软件源中某些软件包无法比对的问题
 - [陈嘉杰 (jiegec)](https://github.com/jiegec) 开始实现一款名为 [BuildIt!](https://github.com/AOSC-Dev/buildit) 的自动打包机器人，在实现完成后，软件包维护者们可以从 Telegram 发起各架构软件包构建，无需自行登录 SSH 并手动上传软件包，提高打包效率，降低维护工作繁琐程度
 
 
