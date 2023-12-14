@@ -15,7 +15,7 @@ AOSC OS 快讯
 近日，社区开发者 [傅孝元](https://github.com/eatradish) 发布了 oma 1.2 版，该版引入了如下几个特性：
 
 - 大幅度改善报错和调试信息，方便用户和开发者解决使用过程中遇到的问题
-- 新增 --sysroot= 参数，允许管理设备中安装的其他 AOSC OS 系统或容器
+- 新增 `--sysroot=` 参数，允许管理设备中安装的其他 AOSC OS 系统或容器
 
 此外，随着 1.2 的发布，我们决定将 Omakase 更名为 oma，摒弃之前名不副实的 Omakase 命名。Omakase 最初的设计类似 Nix，基于中心配置重新组装系统，而目前的实现相对传统，即由用户“点单”安装软件包的设计显然和 Omakase 指代的“厨师发办”意思相悖。
 
@@ -44,7 +44,7 @@ AOSC OS 快讯
 过去两周中我们为 AOSC OS 推送了许多更新，这里简要介绍其中几项：
 
 - [oma](https://github.com/AOSC-Dev/oma) 包管理前端更新至 1.2.4，引入数个新特性及修复（见上文“oma 1.2 发布”）
-- LLVM 运行时及工具链（`llvm`, `llvm-runtime`；Clang, LLDB, LLD 等）更新至 17.0.6，引入数个新架构支持特性和修复
+- LLVM 运行时及工具链（`llvm`, `llvm-runtime`; Clang, LLDB, LLD 等）更新至 17.0.6，引入数个新架构支持特性和修复
 - Fcitx 5 (`fcitx5-*`) 及中州韵输入法各组件 (`rime-*`) 更新至最新版本，引入新特性和改进并修复中州韵输入时系统日志输出大量错误的问题
 - Discord 聊天、语音及直播软件 (`discord`) 更新至 0.0.37
 - Docker 系统及应用容器管理器 (`docker`) 更新至 24.0.7
@@ -88,12 +88,12 @@ AOSC OS 快讯
 
 #### 开发工具
 
-- [ACBS](https://github.com/AOSC-Dev/acbs) 软件包构建脚本、源码及构建管理器发布 20231205 版：[刘子兴](http://github.com/AOSC-Dev/acbs) 为源码记录文件实现了 `use-url-name` 选项，允许控制下载源码时是否保持 URL 中记录的文件名并修复子包构建顺序计算不正确导致报错的问题
+- [ACBS](https://github.com/AOSC-Dev/acbs) 软件包构建脚本、源码及构建管理器发布 20231205 版：[刘子兴](https://github.com/liushuyu) 为源码记录文件实现了 `use-url-name` 选项，允许控制下载源码时是否保持 URL 中记录的文件名并修复子包构建顺序计算不正确导致报错的问题
 - [aosc-findupdate](https://github.com/AOSC-Dev/aosc-findupdate) 软件包更新查询工具发布 0.4.0 版：[Felix Yan](https://github.com/felixonmars) 修复了先前依赖更新后无法正确识别查询类别的问题；[陈嘉杰 (jiegec)](https://github.com/jiegec) 新增 `-U` 选项，可利用 [Ciel](https://github.com/AOSC-Dev/ciel-rs) 和 [ACBS](https://github.com/AOSC-Dev/acbs) 在查找更新后自动下载源码并刷新校验值记录；[傅孝元](https://github.com/eatradish) 改善了错误管理逻辑
 - [Autobuild3](https://github.com/AOSC-Dev/autobuild3) 半自动打包工具发布 1.7.6 版：[白铭骢](https://github.com/MingcongBai) 修复了某些软件包因为 `TZ` 时区设置变量未设定时无法编译的问题（默认设置 `TZ=UTC`）
 - [mirrormgr](https://github.com/AOSC-Dev/mirrormgr) 软件包源镜像管理器发布 0.9.0 版：[傅孝元](https://github.com/eatradish) 新增测试源刷新功能
 - [pushpkg](https://github.com/AOSC-Dev/scriptlets/tree/master/pushpkg) 软件包推送工具发布 0+git20231129 版：[Felix Yan](https://github.com/felixonmars) 新增 `-i` (`--identity-file`) 选项，允许在推送软件包时指定非标准位置存放的私钥文件
-- [照妖镜 (treevsrepo)](https://github.com/AOSC-Dev/treevsrepo) 软件包版本比对工具引入许多新特性和修复：其中 [陈嘉杰 (jiegec)](https://github.com/jiegec) 为 treevsrepo 引入了测试源 (topic ) 版本比对支持、修复了 Epoch 比对行为不正确的问题并修复软件包变种版本比对时未参考具体对应架构的问题；[傅孝元](https://github.com/eatradish) 修复了探测软件源中某些软件包无法比对的问题
+- [照妖镜 (treevsrepo)](https://github.com/AOSC-Dev/treevsrepo) 软件包版本比对工具引入许多新特性和修复：其中 [陈嘉杰 (jiegec)](https://github.com/jiegec) 为 treevsrepo 引入了测试源 (topic) 版本比对支持、修复了 Epoch 比对行为不正确的问题并修复软件包变种版本比对时未参考具体对应架构的问题；[傅孝元](https://github.com/eatradish) 修复了探测软件源中某些软件包无法比对的问题
 - [陈嘉杰 (jiegec)](https://github.com/jiegec) 开始实现一款名为 [BuildIt!](https://github.com/AOSC-Dev/buildit) 的自动打包机器人，在实现完成后，软件包维护者们可以从 Telegram 发起各架构软件包构建，无需自行登录 SSH 并手动上传软件包，提高打包效率，降低维护工作繁琐程度
 
 
@@ -106,7 +106,7 @@ AOSC OS 快讯
 
 为更好地测试我们的系统更新，我们为不同类别的更新创建相应测试源，供用户与贡献者测试。其中，如下几个测试源包含重要更新：
 
-- **Linux 内核 6.6 (`linux-kernel-6.6`)：** 将 Linux 内核更新至 6.6 分支，新增硬件支持（如在 RISC-V 上打开 ACPI 支持，新增龙架构配置等），引入性能优化等（如在 x86_64 架构内核上关闭先前因为疏忽打开的调度器调试支持`CONFIG_DEBUG_PREEMPT`，加速应用启动）
+- **Linux 内核 6.6 (`linux-kernel-6.6`)：** 将 Linux 内核更新至 6.6 分支，新增硬件支持（如在 RISC-V 上打开 ACPI 支持，新增龙架构配置等），引入性能优化等（如在 x86_64 架构内核上关闭先前因为疏忽打开的调度器调试支持 `CONFIG_DEBUG_PREEMPT`，加速应用启动）
 - **MIPS 龙芯修缮 (`loongson3-fixup-2`)：** 为龙芯专版 GRUB (`grub-loongson3`) 新增 `update-grub` 命令，默认为板载显卡选用 `loongson` 驱动，关闭 LevelDB 的 tcmalloc 支持以修复中州韵 (RIME) 输入法崩溃的问题等
 - **十一月底 Mozilla 套件更新 (`mozilla-survey-20231122`)：** 更新 Firefox 浏览器至 112.0、Thunderbird 邮件客户端至 115.5.0，为所有主线架构打开硬件视频编解码加速支持及 OpenH264 编解码器支持，允许在支持 WebRTC 特性的架构上使用视讯会议平台
 - **signing-party (`signing-party-new`)：** 引入 `signing-party` 包，方便用户参加 PGP 签名派对等社交场合
