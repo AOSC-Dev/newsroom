@@ -107,7 +107,7 @@ KDE 6 将于 2024 年春季发布，考虑到该桌面更新发布在即且 Arch
 
 - [oma](https://github.com/AOSC-Dev/oma) 包管理前端更新至 1.2.4，修复一些运行时报错并改善 dpkg 修复软件包管理器状态的逻辑
 - [AOSC OS 系统安装器](https://github.com/AOSC-Dev/aoscdk-rs) 更新至 0.11.
-- 十一月底 Mozilla 套件更新 (`mozilla-survey-20231122`)：更新 Firefox 浏览器 (`firefox`) 至 112.0、Thunderbird 邮件客户端 (`thunderbird`) 至 115.5.0，为所有主线架构打开硬件视频编解码加速支持及 OpenH264 编解码器支持，允许在支持 WebRTC 特性的架构上使用视讯会议平台
+- 十一月底 Mozilla 套件更新 (`mozilla-survey-20231122`)：更新 Firefox 浏览器 (`firefox`) 至 112.0.1、Thunderbird 邮件客户端 (`thunderbird`) 至 115.5.2，为所有主线架构打开硬件视频编解码加速支持及 OpenH264 编解码器支持，允许在支持 WebRTC 特性的架构上使用视讯会议平台
 - Visual Studio Code (`vscode`) 及 VSCodium (`vscodium`) 集成开发环境更新至 1.85.0
 - Discord 聊天、语音及直播软件 (`discord`) 更新至 0.0.39
 - Gitoxide 高性能 Git 客户端 (`gitoxide`) 更新至 0.32.0
@@ -171,11 +171,11 @@ KDE 6 将于 2024 年春季发布，考虑到该桌面更新发布在即且 Arch
 为更好地测试我们的系统更新，我们为不同类别的更新创建相应测试源，供用户与贡献者测试。其中，如下几个测试源包含重要更新：
 
 - **十二月命令提示符套件更新 (`app-shells-survey-20231210`)：** 更新各命令提示符（如 Bash 和 Fish）并引入相应新特性
+- **十二月 Wine 及 Vulkan 图形库套件更新 (`wine-vulkan-survey-202312`)：** 更新 Wine（Windows 应用程序模拟器）及 Vulkan 图形库组件，改善 Windows 游戏（尤其是 32 位的 DirectX 游戏）体验
+- **十二月 WSL (Windows Subsystem for Linux) 套件更新 (`wsl-survey-20231213`)：** 改善“适用于 Linux 的 Windows 子系统”开箱使用体验，如默认打开 systemd 支持等，并引入管理后台服务和内存缓存相关的工具
 - **Linux 内核 6.6 (`linux-kernel-6.6`)：** 将 Linux 内核更新至 6.6 分支，新增硬件支持（如在 RISC-V 上打开 ACPI 支持，新增龙架构配置等），引入性能优化等（如在 x86_64 架构内核上关闭先前因为疏忽打开的调度器调试支持 `CONFIG_DEBUG_PREEMPT`，加速应用启动）
 - **龙架构交叉编译器 (`loongarch64-cross-new`)：** 引入龙架构 (LoongArch) 交叉编译器组件
 - **MIPS 龙芯修缮 (`loongson3-fixup-2`)：** 为龙芯专版 GRUB (`grub-loongson3`) 新增 `update-grub` 命令，默认为板载显卡选用 `loongson` 驱动，关闭 LevelDB 的 tcmalloc 支持以修复中州韵 (RIME) 输入法崩溃的问题等
-- **十二月 Wine 及 Vulkan 图形库套件更新 (`wine-vulkan-survey-202312`)：** 更新 Wine（Windows 应用程序模拟器）及 Vulkan 图形库组件，改善 Windows 游戏（尤其是 32 位的 DirectX 游戏）体验
-- **十二月 WSL (Windows Subsystem for Linux) 套件更新 (`wsl-survey-20231213`)：** 改善“适用于 Linux 的 Windows 子系统”开箱使用体验，如默认打开 systemd 支持等，并引入管理后台服务和内存缓存相关的工具
 
 这些测试源也将同步至我们的龙架构 (LoongArch) 前沿分支 (`frontier`)，并为正式引入龙架构支持做准备。
 
@@ -230,7 +230,7 @@ sudo oma topics
 
 ### AOSC 廿四年“流浪相机”计划初步意向问卷
 
-社区计划在 2024 年仿照 B 站 Up 主 LKs (https://space.bilibili.com/125526/) 的“漂流相机”搞一个“流浪相机”计划，预先约定一套摄影器材（相机和镜头），将一台由社区好友借用的相机寄出，在半年到一年间在参与者间接龙，并将自己选出的最优作品投稿，作为作为廿四年中或年底的默认壁纸集。第一轮“流浪相机”属于实验性运作，我们计划限定现有贡献者和经过某种流程确认可信任的社区好友（比如贡献者认识的人）参与。
+社区计划在 2024 年仿照 B 站 Up 主 [LKs](https://space.bilibili.com/125526/) 的“漂流相机”搞一个“流浪相机”计划，预先约定一套摄影器材（相机和镜头），将一台由社区好友借用的相机寄出，在半年到一年间在参与者间接龙，并将自己选出的最优作品投稿，作为作为廿四年中或年底的默认壁纸集。第一轮“流浪相机”属于实验性运作，我们计划限定现有贡献者和经过某种流程确认可信任的社区好友（比如贡献者认识的人）参与。
 
 本问卷用于收集关于活动时长、地理范围、器材和各类意见等初步意向。本计划预计在 2024 年三月前启动。
 
