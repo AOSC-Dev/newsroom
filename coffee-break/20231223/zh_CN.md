@@ -23,7 +23,9 @@ AOSC OS 快讯
 
 ### 解放生产力：AOSC OS 自动化设施正式投产！
 
-近两周，社区开发者 [陈嘉杰 (jiegec)](https://github.com/jiegec) 发起了 [BuildIt!](https://github.com/AOSC-Dev/buildit) 项目，与 [傅孝元](https://github.com/eatradish) 一同协作，以最小最简的原则进行设计和实现工作，至截稿时已正式实现、发布和部署了我社发行版 AOSC OS 的自动维护设施，**结束了社区长大十余年的人工维护历史。**从本质上说 BuildIt! 是一个构建任务分发管理器，其主要功能有：
+近两周，社区开发者 [陈嘉杰 (jiegec)](https://github.com/jiegec) 发起了 [BuildIt!](https://github.com/AOSC-Dev/buildit) 项目，与 [傅孝元](https://github.com/eatradish) 一同协作，以最小最简的原则进行设计和实现工作，至截稿时已正式实现、发布和部署了我社发行版 AOSC OS 的自动维护设施，**结束了社区长大十余年的人工维护历史。**
+
+从本质上说，BuildIt! 是一个构建任务分发管理器，其主要功能有：
 
 - 机器人界面，维护者可以通过 Telegram 聊天软件给管理器提交任务和发出其他指令
 - 将维护者提交的构建任务分发到社区的各构建服务器
