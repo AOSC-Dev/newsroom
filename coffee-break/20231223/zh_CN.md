@@ -195,7 +195,7 @@ sudo oma topics
 上周，我们以社区名义将由 [白铭骢](https://github.com/MingcongBai) 主编的《社区报告：关于改善龙芯中科与社区协作的几点观察和意见》提交给了龙芯中科相关的领导，将我社在过去数个月观察和参与龙芯社区软件生态维护的过程中发现的一些问题和
 疑问整理起来，以建设性为原则提出意见，希望能够进一步推动社区与龙芯中科的积极协作。至此，我们认为已充分证明我社的善意，发布《聊斋》的时机已经成熟。
 
-![“千字节跳动”：在龙架构上由于 AMDGPU 内核驱动未正确实现写入合并 (write-combine) 导致的显示问题]()
+![“千字节跳动”：在龙架构上由于 AMDGPU 内核驱动未正确实现写入合并 (write-combine) 导致的显示问题](/coffee-break/20231223/imgs/kilobytedance.jpg)
 
 《聊斋》创刊号由 [千须末 (OriginCode)](https://github.com/OriginCode) 主编，命题“龙芯 3A5000 体验报告”。他将在本文中回顾从 AOSCC 2023 抽奖赢得一台龙芯 3A5000 台式机后的经历的“命运羁绊”和“干沟万壑”。（笑）
 
@@ -226,7 +226,7 @@ sudo oma topics
 
 本投票将于 UTC+8 时间 2023 年 12 月 31 日午夜截止。
 
-参与投票：https://forms.gle/EAEjwTEEgDDzw4GG6
+投票链接：https://forms.gle/EAEjwTEEgDDzw4GG6
 
 ### AOSC 廿四年“流浪相机”计划初步意向问卷
 
@@ -234,7 +234,7 @@ sudo oma topics
 
 本问卷用于收集关于活动时长、地理范围、器材和各类意见等初步意向。本计划预计在 2024 年三月前启动。
 
-填写问卷：https://forms.gle/zA74WjimoXrmJURh7
+问卷链接：https://forms.gle/zA74WjimoXrmJURh7
 
 ### 安安/同同表情包内容征集问卷
 
@@ -246,7 +246,7 @@ sudo oma topics
 
 我们计划在年初落实此事，届时可能需要发起募捐用于报销画师等相关款项，后续会再有通知。
 
-填写问卷：https://forms.gle/t4rcLj6omCE4cufy5
+问卷链接：https://forms.gle/t4rcLj6omCE4cufy5
 
 一起吹水
 --------
