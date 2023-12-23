@@ -207,22 +207,22 @@ sudo oma topics
 
 本次晋级的壁纸有：
 
-— 斜阳几何 / Geometric Dusk（作者：Ariel AxionL）
-— 爽秋 / Brisk（作者：白铭骢）
-— 倒影之路 / Pathway of Reflections（作者：lz233）
-— 玉龙雪山 / Yulong（作者：新一）
-— 沙漠远眺 / The Desert（作者：椰椰雪球）
-— 乌云过后 / Skylight（作者：椰椰雪球）
-— 地之脊 II / Mountain Range II（作者：Mogician Yang）
-— 拼图 II / Patches II（作者：Mogician Yang）
-— 向天 / Fly Low（作者：Mogician Yang）
-— 富士山 I / Mount Fuji I（作者：Yu Changyuan）
-— 富士山 III / Mount Fuji III（作者：Yu Changyuan）
-— 棉花堡 / Pamukkale（作者：Yu Changyaun）
-— 祁连山 / Qilian Mountain（作者：Yu Changyuan）
-— 油菜花田 I / Rapeseed Field I（作者：Yu Changyuan）
-— 油菜花田 III / Rapeseed Field III（作者：Yu Changyuan）
-— 梅里雪山日出 / Morrow Ray Upon Meili（作者：YzyParry）
+- 斜阳几何 / Geometric Dusk（作者：Ariel AxionL）
+- 爽秋 / Brisk（作者：白铭骢）
+- 倒影之路 / Pathway of Reflections（作者：lz233）
+- 玉龙雪山 / Yulong（作者：新一）
+- 沙漠远眺 / The Desert（作者：椰椰雪球）
+- 乌云过后 / Skylight（作者：椰椰雪球）
+- 地之脊 II / Mountain Range II（作者：Mogician Yang）
+- 拼图 II / Patches II（作者：Mogician Yang）
+- 向天 / Fly Low（作者：Mogician Yang）
+- 富士山 I / Mount Fuji I（作者：Yu Changyuan）
+- 富士山 III / Mount Fuji III（作者：Yu Changyuan）
+- 棉花堡 / Pamukkale（作者：Yu Changyaun）
+- 祁连山 / Qilian Mountain（作者：Yu Changyuan）
+- 油菜花田 I / Rapeseed Field I（作者：Yu Changyuan）
+- 油菜花田 III / Rapeseed Field III（作者：Yu Changyuan）
+- 梅里雪山日出 / Morrow Ray Upon Meili（作者：YzyParry）
 
 本投票将于 UTC+8 时间 2023 年 12 月 31 日午夜截止。
 
