@@ -91,7 +91,7 @@ KDE 6 将于 2024 年春季发布，考虑到该桌面更新发布在即且 Arch
 
 近日，[QVQNetwork 开源镜像站](https://mirrors.qvq.net.cn/) 收录了我社软件源。该 1Gbps 带宽镜像位于重庆市，相信将为中国内地用户们提供高质高速的服务。
 
-再次感谢 QVQNetwork 鼎力相助！
+再次感谢 QVQNetwork 的鼎力相助！
 
 ### 持续推进 AOSC OS“合龙”
 
