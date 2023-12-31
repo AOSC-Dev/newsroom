@@ -191,7 +191,7 @@ BIOS，因为写到非易失储存里了，也没有方便的重置手段，只�
 
 那，如果我们更过分一点呢？
 
-翻出 Minecraft 光影模组 Complementary
+翻出 Minecraft 光影包 Complementary
 Reimagined，在开了这个光影的情况下甚至也能达到 30 FPS 的水平。查看 F3
 侦错屏幕，发现依旧是 GPU 的瓶颈（后来我又换了更高级的 AMD Radeon RX 470
 显卡，帧率能达到 60 FPS 以上的水平）。
