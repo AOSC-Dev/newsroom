@@ -52,8 +52,8 @@ LiveKit，似乎内存测试会循环启动，开机的时候取消掉就行。�
 LA64 SATA 控制器实在是有点慢）。
 
 > 编者注：本文是在九月初编写的，当时 AOSC OS 的 DeployKit
-安装程序尚未支持龙架构 (LoongArch)，10 月底发布的 LiveKit
-已经包含安装程序且可以正常使用。
+> 安装程序尚未支持龙架构 (LoongArch)，10 月底发布的 LiveKit
+> 已经包含安装程序且可以正常使用。
 
 此外，毫无意外地，安装过程中体验到了数次 AOSCC 2023 上 3A5000
 演示机上出现的同款「千字节跳动」。
@@ -125,8 +125,7 @@ Telegram 本身...... 第一次编译的时候，原本带的 8G
 防止因为内存不足再次打包失败。可惜，最后还是没能成功编译，只好等社区其他同事研究了。
 
 > 编者注：现在 AOSC OS 已包含功能完整的，为 LoongArch 编译的 Telegram
-
-软件包 (`telegram-desktop`)；Ciel 容器管理工具也已支持 LoongArch。
+> 软件包 (`telegram-desktop`)；Ciel 容器管理工具也已支持 LoongArch。
 
 ### 鬼故事之二：从 SATA SSD 迁移到 M.2 NVMe SSD
 
