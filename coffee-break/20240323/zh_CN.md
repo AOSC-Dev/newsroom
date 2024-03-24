@@ -74,9 +74,9 @@ oma topics --opt-in kde-survey-20240304
 
 先前，陈嘉杰发布了 BuildIt v2 的[设计文档](https://github.com/AOSC-Dev/buildit/blob/v2/DESIGN.md)和[愿景帖](https://github.com/AOSC-Dev/buildit/issues/8)，目前仍有不少特性有待实现。如果您有意愿协助开发工作，请通过我社[各聊天群组](https://aosc.io/zh-cn/contact)与陈嘉杰联系。
 
-### Autobuild4 4.1 分支发布
+### Autobuild 4.1 分支发布
 
-伴随着 Spiral 兼容性框架初步测试的结束，Autobuild4 也合并了 Spiral 相关的标记功能，并发布了 4.1 系列的新版本。初版 Spiral 支持标记如下兼容包名：
+伴随着 Spiral 兼容性框架初步测试的结束，[Autobuild](https://github.com/AOSC-Dev/autobuild4) 也合并了 Spiral 相关的标记功能，并发布了 4.1 系列的新版本。初版 Spiral 支持标记如下兼容包名：
 
 - 共享库（如 `libc6` 和 `libc-dev` 等）
 - GObject-Introspection Typelibs（如 `gir1.2-gnomekeyring-1.0` 等）
