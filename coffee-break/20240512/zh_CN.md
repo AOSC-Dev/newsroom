@@ -131,7 +131,7 @@ oma topics --opt-in latx-1.5.0
 
 日前，[陈嘉杰 (jiegec)](https://github.com/jiegec)和[傅孝元](https://github.com/eatradish)为安同 OS 自动化构建设施 BuildIt! 实现了 `/bump` 命令，可根据 [aosc-findupdate](https://github.com/AOSC-Dev/aosc-findupdate) 工具返回的信息自动更新各类软件包并提交 Git 仓库、打开合并请求（对应测试源）。该功能将大幅度简化对软件包的常规更新和维护操作，节省维护者时间。
 
-### Ciel 和 ACBS 发布更新，修复软件包变种连续构建
+### Ciel 和 ACBS 发布更新：修复软件包变种连续构建
 
 安同 OS 实现维护自动化后为构建工具链引入了软件包变种功能 (Package Modifier)，以便自动构建诸如 OpenJDK 和 LLVM 等需要自举和重构的软件。但这一功能引入时暴露了构建容器管理器 [Ciel](https://github.com/AOSC-Dev/ciel-rs) 的本地软件包管理功能的漏洞，使得这些软件包无法正常连续构建。
 
@@ -149,11 +149,11 @@ oma topics --opt-in latx-1.5.0
 
 此外，为降低 Anicca 项目的维护成本，[傅孝元](https://github.com/eatradish)为 [aosc-findupdate](https://github.com/AOSC-Dev/aosc-findupdate) 新增了 JSON 支持功能，以便程序化地解析和呈现更新检查的结果；[skybird](https://github.com/SkyBird233)也为 Annica 设计了网页前端，现已提交至 Anicca 仓库供贡献者测试审阅。
 
-### minipkgsite：迷你软件包查询站
+### minipkgsite：迷你软件包信息站
 
-由于设计复杂和稳定性欠佳，社区的软件包查询网站 [AOSC OS Packages](https://packages.aosc.io) 可用性长期欠佳且亟需修缮。也正因如此，发行版软件包版本监测网站 [Repology](https://repology.org/) 早前也移除了安同 OS 的版本监测。
+由于设计复杂和稳定性欠佳，社区的软件包信息网站 [AOSC OS Packages](https://packages.aosc.io) 可用性长期欠佳且亟需修缮。也正因如此，发行版软件包版本监测网站 [Repology](https://repology.org/) 早前也移除了安同 OS 的版本监测。
 
-考虑到修缮软件包站工作繁重，[傅孝元](https://github.com/eatradish)编写了名为 [minipkgsite](https://github.com/AOSC-Dev/minipkgsite) 的最小化软件包查询网站。该网站带有包含基础功能的软件包查询前端及公开 API，相信将为安同 OS 重返 [Repology](https://repology.org/) 提供必要条件。
+考虑到修缮软件包站工作繁重，[傅孝元](https://github.com/eatradish)编写了名为 [minipkgsite](https://github.com/AOSC-Dev/minipkgsite) 的最小化软件包信息站。该网站带有包含基础功能的软件包查询前端及公开 API，相信将为安同 OS 重返 [Repology](https://repology.org/) 提供必要条件。
 
 ### 别了，Autobuild3
 
