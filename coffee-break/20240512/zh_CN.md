@@ -26,14 +26,14 @@
 
 ![王邈与社区新软件源服务器在 Equinix HK5 机房前合影](/coffee-break/20240512/imgs/junko-in-transit.jpg)
 
-位于美国加利福尼亚州弗里蒙特市[飓风电气 (Hurricane Electric Internet Service)](http://he.net/) Freemont 2 数据中心的社区软件源服务器部署已逾四年，其带宽和存储性能均已出现明显局限。为保障服务质量和网络性能，我们决定组装部署新的软件源服务器。在 [Apernet Internet Laboratory（光圈网络）](https://apernet.io/)的大力支持下，我们在其位于香港特别行政区将军澳的 [Equinix](https://www.equinix.com/) HK5 数据中心完成了新软件源的组装上架，并将于近期上线服务安同 OS（英译：AOSC OS）用户。
+位于美国加利福尼亚州弗里蒙特市 [Hurricane Electric](https://he.net/) Fremont 2 数据中心的社区软件源服务器部署已逾四年，其带宽和存储性能均已出现明显局限。为保障服务质量和网络性能，我们决定组装部署新的软件源服务器。在 [Apernet Internet Laboratory（光圈网络）](https://apernet.io/)的大力支持下，我们在其位于香港特别行政区将军澳的 [Equinix](https://equinix.com/) HK5 数据中心完成了新软件源的组装上架，并将于近期上线服务安同 OS（英译：AOSC OS）用户。
 
 新软件源服务器的服务质量和性能将有显著提高，其配置如下：
 
 - 平台：华硕 RS700A-E9-RS12V2 1U 机架式服务器
 - 处理器：双路 AMD EPYC（霄龙）7282 处理器，共 32 核 64 线
 - 内存：32 × 16GiB DDR4 ECC 内存，总容量达 512GiB
-- 主存储：两块 7.68TB 西部数据 SN640 NVMe 固态硬盘，组成冗余阵列 (RAID 1)
+- 主存储：两块 7.68TB 西部数据 Ultrastar DC SN640 NVMe 固态硬盘，组成冗余阵列 (RAID 1)
 
 由此可见，该服务器的计算性能（AMD Zen2，相对于当前服务器的 Intel Skylake 微架构）和存储性能（NVMe 固态，相对于当前的 SATA 机械硬盘）相对于当前源服务器均有显著提高，相信将为各位用户朋友带来更好的系统软件安装和更新体验。
 
@@ -43,7 +43,7 @@
 
 ![新世界很大，libLoL 带您去看看！](/coffee-break/20240512/imgs/liblol.png)
 
-近日，社区开发者[王邈](https://github.com/shankerwangmiao)发布了龙架构旧世界 ABI 兼容运行时 libLoL 的 0.1.5 版：Glibc 版本更新至 2.39，编译时新增 ABI 及符号完整性检查，并将 libcrypt 库实现更改为 libxcrypt；这些更改的主要目的是避免潜在的兼容性问题。
+近日，社区开发者[王邈](https://github.com/shankerwangmiao)发布了龙架构旧世界 ABI 兼容运行时 libLoL 的 0.1.5 版：glibc 版本更新至 2.39，编译时新增 ABI 及符号完整性检查，并将 libcrypt 库实现更改为 libxcrypt；这些更改的主要目的是避免潜在的兼容性问题。
 
 libLoL 支持如下新世界龙架构发行版：
 
@@ -71,24 +71,24 @@ libLoL 支持如下新世界龙架构发行版：
 
 ![Core 11 是安同 OS 在 2023 - 2024 周期的系统核心包集](/coffee-break/20240512/imgs/core-11-banner.png)
 
-近日，安同 OS 核心包集 (Core) 发布了 11.4.1 版，主要更新 Glibc 运行时库至 2.38。该更新旨在改善与龙架构 (LoongArch) 新世界 ABI 商业软件（如龙芯 x86 架构转译器和风华二号显卡驱动）的兼容性。
+近日，安同 OS 核心包集 (Core) 发布了 11.4.1 版，主要更新 glibc 运行时库至 2.38。该更新旨在改善与龙架构 (LoongArch) 新世界 ABI 商业软件（如龙芯 x86 架构转译器和风华二号显卡驱动）的兼容性。
 
-该更新还修复了 Glibc 自带的域名服务缓存守护程序 NCSD 中的四个安全漏洞：
+该更新还修复了 glibc 自带的域名服务缓存守护程序 nscd 中的四个安全漏洞：
 
-- [CVE-2024-33599](https://nvd.nist.gov/vuln/detail/CVE-2024-33599)
-- [CVE-2024-33600](https://nvd.nist.gov/vuln/detail/CVE-2024-33600)
-- [CVE-2024-33601](https://nvd.nist.gov/vuln/detail/CVE-2024-33601)
-- [CVE-2024-33602](https://nvd.nist.gov/vuln/detail/CVE-2024-33602)
+- [CVE-2024-33599](https://www.cve.org/CVERecord?id=CVE-2024-33599)
+- [CVE-2024-33600](https://www.cve.org/CVERecord?id=CVE-2024-33600)
+- [CVE-2024-33601](https://www.cve.org/CVERecord?id=CVE-2024-33601)
+- [CVE-2024-33602](https://www.cve.org/CVERecord?id=CVE-2024-33602)
 
 ### 新技术，新优化：Core 12 前瞻
 
 ![Core 12 将于今年暑期公开测试](/coffee-break/20240512/imgs/core-12-banner.png)
 
-日前，[白铭骢](https://github.com/MingcongBai)和[陈嘉杰 (jiegec)](https://github.com/jiegec)发起了第 12 版系统核心包集 (Core 12) 的特性规划。该版核心包集将于今年暑期开启公测，包含诸如 Glibc 2.39 和 GCC 编译器 14.1.0 等组件更新。
+日前，[白铭骢](https://github.com/MingcongBai)和[陈嘉杰 (jiegec)](https://github.com/jiegec)发起了第 12 版系统核心包集 (Core 12) 的特性规划。该版核心包集将于今年暑期开启公测，包含诸如 glibc 2.39 和 GCC 编译器 14.1.0 等组件更新。
 
 此外，Core 12 还将包含两个关键特性：
 
-- **HWCAPS 子目录：** Core 12 将基于 Glibc 上游定义的 HWCAPS 子目录 (HWCAPS Subdirectory) 规范，为 x86 和 POWER 架构提供针对多种处理器微架构优化的运行时库，让各类搭载新处理器的硬件更好地利用新的架构和指令集扩展，提高性能
+- **HWCAPS 子目录：** Core 12 将基于 glibc 上游定义的 HWCAPS 子目录 (HWCAPS Subdirectory) 规范，为 x86 和 POWER 架构提供针对多种处理器微架构优化的运行时库，让各类搭载新处理器的硬件更好地利用新的架构和指令集扩展，提高性能
 - **增强二进制固化：** GCC 14 编译器引入了新的 `-fhardening` 加固 (Hardening) 选项，定义了一系列标准的二进制固化参数，标准均高于 Core 11 及之前的核心包集版本中定义的加固级别——基于 Core 12 工具链编译的二进制程序安全性将得到进一步强化
 
 ### 功能增强，修复细化：一睹 Linux 内核 6.9 版更新内容
