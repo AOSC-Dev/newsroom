@@ -141,7 +141,7 @@ oma topics --opt-in latx-1.5.0
 
 安同 OS 的 32 位 x86 子系统 (optenv32) 的维护缺乏标准规范且关注度不足，是个“老大难”问题。该子系统的维护困难直接导致了诸如 Steam 和各类 32 位软件的使用体验的落后和不完善。
 
-近日，[杨欣辉](https://github.com/Cyanoxygen)发布了安同 OS 软件包构建工具 [Autobuild](https://github.com/AOSC-Dev/autobuild4)的 4.2 版，为子系统组件包构建引入了一系列标准模板和参数，大大降低了此类软件包的维护成本并提高了软件包质量检查标准。配合近期的 optenv32 翻修计划，相信将在不远的将来改善原生及模拟环境（如龙架构 x86 转译器）中 32 位 x86 软件的使用体验。
+近日，[杨欣辉](https://github.com/Cyanoxygen)发布了安同 OS 软件包构建工具 [Autobuild](https://github.com/AOSC-Dev/autobuild4) 的 4.2 版，为子系统组件包构建引入了一系列标准模板和参数，大大降低了此类软件包的维护成本并提高了软件包质量检查标准。配合近期的 optenv32 翻修计划，相信将在不远的将来改善原生及模拟环境（如龙架构 x86 转译器）中 32 位 x86 软件的使用体验。
 
 ### 更新查询自动化：Anicca（无常）项目
 
