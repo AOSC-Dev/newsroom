@@ -31,11 +31,11 @@
 新软件源服务器的服务质量和性能将有显著提高，其配置如下：
 
 - 平台：华硕 RS700A-E9-RS12V2 1U 机架式服务器
-- 处理器：双路 AMD EPYC（霄龙）7282 处理器，共 32 核 64 线
+- 处理器：双路 AMD EPYC（霄龙）7282 处理器，共 32 核 64 线程
 - 内存：32 × 16GiB DDR4 ECC 内存，总容量达 512GiB
 - 主存储：两块 7.68TB 西部数据 Ultrastar DC SN640 NVMe 固态硬盘，组成冗余阵列 (RAID 1)
 
-由此可见，该服务器的计算性能（AMD Zen2，相对于当前服务器的 Intel Skylake 微架构）和存储性能（NVMe 固态，相对于当前的 SATA 机械硬盘）相对于当前源服务器均有显著提高，相信将为各位用户朋友带来更好的系统软件安装和更新体验。
+由此可见，该服务器的计算性能（AMD Zen2，相对于当前服务器的 Intel Skylake 微架构）和存储性能（NVMe 固态，相对于当前的 SATA 机械硬盘）均得到了升级，相信将为各位用户朋友带来更好的系统软件安装和更新体验。
 
 在此再次感谢 [Apernet Internet Laboratory（光圈网络）](https://apernet.io/)和 [Wencey Wang](https://github.com/WenceyWang) 同学在托管和服务器部件上的大力支持，以及[王邈](https://github.com/shankerwangmiao)多次奔赴香港机房对社区的新软件源服务器进行组装和测试！
 
@@ -115,6 +115,14 @@ oma topics --opt-in latx-1.5.0
 
 如果您在使用 LATX 1.5 时遇到困难或发现问题，请通过龙芯中科职工临时搭建的[工单系统](https://github.com/deuso/latx-build/issues)报告反馈。
 
+### Deb 系一家亲：小熊猫包管理 oma 实现基本 Debian/Ubuntu 支持
+
+![小熊猫包管理登陆 Ubuntu 24.04 LTS！](/coffee-break/20240512/imgs/oma-on-ubuntu.png)
+
+[傅孝元](https://github.com/eatradish)近日发布小熊猫包管理 [oma](https://github.com/AOSC-Dev/oma) 1.3.6 版更新，新增 Debian 和 Ubuntu 初步支持，让 Deb 系正统发行版也用上了来自安同“匪帮”的包管理前端，欢迎试用！
+
+我们将在近期发布面向 Debian 和 Ubuntu 等发行版用户的 oma 软件包，敬请期待！
+
 开发者角
 --------
 
@@ -136,7 +144,7 @@ oma topics --opt-in latx-1.5.0
 
 ### 更新查询自动化：Anicca（无常）项目
 
-在安同 OS 系统维护中，其中一大工作项目便是更新各类软件包了。为了让维护者同事们更直观地了解各类软件包的更新情况，[Suyun](https://github.com/Suyun114) 发起了 [Anicca（无常）](https://github.com/Suyun114/anicca-aosc)项目，利用 GitHub Actions 机制调用 [aosc-findupdate](https://github.com/AOSC-Dev/aosc-findupdate) 查询整个[软件包树](https://github.com/AOSC-Dev/aosc-os-abbs)的更新并将结果呈现到表格中。
+在安同 OS 系统维护中，其中一大工作项目便是更新各类软件包了。为了让维护者同事们更直观地了解各类软件包的更新情况，[Suyun](https://github.com/Suyun114) 发起了 [Anicca（无常）](https://github.com/AOSC-Dev/anicca)项目，利用 GitHub Actions 机制调用 [aosc-findupdate](https://github.com/AOSC-Dev/aosc-findupdate) 查询整个[软件包树](https://github.com/AOSC-Dev/aosc-os-abbs)的更新并将结果呈现到表格中。
 
 此外，为降低 Anicca 项目的维护成本，[傅孝元](https://github.com/eatradish)为 [aosc-findupdate](https://github.com/AOSC-Dev/aosc-findupdate) 新增了 JSON 支持功能，以便程序化地解析和呈现更新检查的结果；[skybird](https://github.com/SkyBird233)也为 Annica 设计了网页前端，现已提交至 Anicca 仓库供贡献者测试审阅。
 
