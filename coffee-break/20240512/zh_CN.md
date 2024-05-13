@@ -167,7 +167,7 @@ oma topics --opt-in latx-1.5.0
 
 - [salieri](https://github.com/BC204)
 - [Henry Chen](https://github.com/chenx97)
-- [CoelacanthusHex](https://github.com/CoelacanthusHex)
+- [Coelacanthus](https://github.com/CoelacanthusHex)
 - [杨欣辉](https://github.com/Cyanoxygen)
 - [傅孝元](https://github.com/eatradish)
 - [德州润华](https://github.com/HouLiXieBuRou)
@@ -185,7 +185,7 @@ oma topics --opt-in latx-1.5.0
 
 此外，欢迎新加入我社贡献者行列的新人，愿合作愉快，共同进步：
 
-- [eval Nya](https://github.com/nexplorer-3e)
+- [Aoba K](https://github.com/nexplorer-3e)
 - [Sharelter](https://github.com/Sharelter)
 - [Student Main](https://github.com/stdmnpkg)
 
