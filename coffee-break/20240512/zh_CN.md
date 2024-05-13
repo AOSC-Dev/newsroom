@@ -68,7 +68,7 @@ libLoL 支持如下新世界龙架构发行版：
 系统快讯
 --------
 
-### Core 11 发布
+### 安同 OS 核心包集 Core 11.4.1 发布
 
 ![Core 11 是安同 OS 在 2023 - 2024 周期的系统核心包集](/coffee-break/20240512/imgs/core-11-banner.png)
 
