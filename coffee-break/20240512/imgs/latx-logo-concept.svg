@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1280"
+   height="512"
+   viewBox="0 0 338.66665 135.46667"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="latx-logo-concept.svg"
+   inkscape:export-filename="latx-logo-concept.png"
+   inkscape:export-xdpi="144"
+   inkscape:export-ydpi="144"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.5"
+     inkscape:cx="853"
+     inkscape:cy="265"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g18"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter15"
+       x="0"
+       y="0"
+       width="1.019685"
+       height="1.019685">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="1.000000"
+         flood-color="rgb(230,0,18)"
+         id="feFlood14" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="0.000000"
+         id="feGaussianBlur14" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="2.000000"
+         dy="2.000000"
+         id="feOffset14" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite14" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite15" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g34"
+       transform="translate(20.388921)">
+      <g
+         id="g21">
+        <circle
+           style="fill:#0068b5;fill-opacity:1;stroke-width:0.294097;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers;filter:url(#filter15)"
+           id="path1"
+           cx="67.73333"
+           cy="67.73333"
+           r="50.799999" />
+        <text
+           xml:space="preserve"
+           style="font-size:41.5427px;line-height:0.8;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';text-decoration-color:#000000;fill:#ffffff;fill-opacity:1;stroke-width:0.354058;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+           x="48.343906"
+           y="81.066048"
+           id="text1"
+           transform="skewY(-17.61373)"><tspan
+             sodipodi:role="line"
+             id="tspan1"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.5427px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.354058"
+             x="48.343906"
+             y="81.066048">LA</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.5427px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.354058"
+             x="48.343906"
+             y="120.11619"
+             id="tspan2"> T<tspan
+   style="font-size:26.4363px;line-height:0.8;stroke-width:0.354058"
+   id="tspan3">X</tspan></tspan></text>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.304213;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+           id="rect3"
+           width="164.27541"
+           height="6.9969153"
+           x="-32.330986"
+           y="83.865189"
+           transform="rotate(-17.535162)" />
+        <g
+           id="g7"
+           transform="translate(0.43264248,-0.10795289)">
+          <g
+             id="g6">
+            <path
+               id="rect3-3"
+               style="fill:#0068b5;stroke-width:0.304213;stroke-linejoin:round;paint-order:stroke fill markers"
+               d="m 115.38764,51.461876 14.62017,-4.612634 2.12644,6.7298 -14.94973,4.657909 z"
+               sodipodi:nodetypes="ccccc" />
+          </g>
+          <g
+             id="g5">
+            <path
+               sodipodi:type="star"
+               style="fill:#0068b5;fill-opacity:1;stroke-width:0.264583;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+               id="path4"
+               inkscape:flatsided="false"
+               sodipodi:sides="3"
+               sodipodi:cx="16.933331"
+               sodipodi:cy="-54.709957"
+               sodipodi:r1="23.535112"
+               sodipodi:r2="11.767556"
+               sodipodi:arg1="0.89570947"
+               sodipodi:arg2="1.942907"
+               inkscape:rounded="0"
+               inkscape:randomized="0"
+               d="m 31.641955,-36.337209 -18.987102,-7.41054 -18.9871015,-7.41054 15.9112666,-12.738042 15.9112669,-12.738043 3.075835,20.148583 z"
+               inkscape:transform-center-x="-1.2303099"
+               inkscape:transform-center-y="1.3443425"
+               transform="matrix(0.29429691,0.38629552,-0.38629552,0.29429691,100.6592,60.367411)" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g18"
+         transform="translate(-47.413352,-130.98229)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.9333px;line-height:0;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';text-decoration-color:#000000;opacity:1;fill:#0068b5;fill-opacity:1;stroke-width:0.265;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+           x="201.93001"
+           y="189.43315"
+           id="text15"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5778px;line-height:1;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-dasharray:none"
+             sodipodi:role="line"
+             x="201.93001"
+             y="189.43315"
+             id="tspan23">Loongson</tspan><tspan
+             style="font-size:11.2889px;line-height:1;fill:#000000;fill-opacity:1;stroke-width:0.265;stroke-dasharray:none"
+             sodipodi:role="line"
+             x="201.93001"
+             y="203.17871"
+             id="tspan26">Architecture Translator</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:16.9333px;line-height:1;fill:#0068b5;fill-opacity:1;stroke-width:0.265;stroke-dasharray:none"
+             x="201.93001"
+             y="223.29985"
+             id="tspan18"><tspan
+               style="font-size:16.5806px;fill:#000000;fill-opacity:1"
+               id="tspan33">             </tspan><tspan
+               id="tspan32"
+               style="font-size:11.2889px;fill:#000000;fill-opacity:1">for </tspan><tspan
+               style="font-size:22.5778px;fill:#0068b5;fill-opacity:1"
+               id="tspan27">x86</tspan></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
