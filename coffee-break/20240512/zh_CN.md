@@ -34,6 +34,7 @@
 - 处理器：双路 AMD EPYC（霄龙）7282 处理器，共 32 核 64 线程
 - 内存：32 × 16GiB DDR4 ECC 内存，总容量达 512GiB
 - 主存储：两块 7.68TB 西部数据 Ultrastar DC SN640 NVMe 固态硬盘，组成冗余阵列 (RAID 1)
+- 网络：25Gbps 上下行带宽
 
 由此可见，该服务器的计算性能（AMD Zen2，相对于当前服务器的 Intel Skylake 微架构）和存储性能（NVMe 固态，相对于当前的 SATA 机械硬盘）均得到了升级，相信将为各位用户朋友带来更好的系统软件安装和更新体验。
 
@@ -115,7 +116,7 @@ oma topics --opt-in latx-1.5.0
 
 如果您在使用 LATX 1.5 时遇到困难或发现问题，请通过龙芯中科职工临时搭建的[工单系统](https://github.com/deuso/latx-build/issues)报告反馈。
 
-### Deb 系一家亲：小熊猫包管理 oma 实现基本 Debian/Ubuntu 支持
+### Deb 系一家亲：小熊猫包管理 oma 初步实现 Debian/Ubuntu 支持
 
 ![小熊猫包管理登陆 Ubuntu 24.04 LTS！](/coffee-break/20240512/imgs/oma-on-ubuntu.png)
 
