@@ -147,7 +147,7 @@ oma topics --opt-in latx-1.5.0
 
 在安同 OS 系统维护中，其中一大工作项目便是更新各类软件包了。为了让维护者同事们更直观地了解各类软件包的更新情况，[Suyun](https://github.com/Suyun114) 发起了 [Anicca（无常）](https://github.com/AOSC-Dev/anicca)项目，利用 GitHub Actions 机制调用 [aosc-findupdate](https://github.com/AOSC-Dev/aosc-findupdate) 查询整个[软件包树](https://github.com/AOSC-Dev/aosc-os-abbs)的更新并将结果呈现到表格中。
 
-此外，为降低 Anicca 项目的维护成本，[傅孝元](https://github.com/eatradish)为 [aosc-findupdate](https://github.com/AOSC-Dev/aosc-findupdate) 新增了 JSON 支持功能，以便程序化地解析和呈现更新检查的结果；[skybird](https://github.com/SkyBird233) 也为 Annica 设计了网页前端，现已提交至 Anicca 仓库供贡献者测试审阅。
+此外，为降低 Anicca 项目的维护成本，[傅孝元](https://github.com/eatradish)为 [aosc-findupdate](https://github.com/AOSC-Dev/aosc-findupdate) 新增了 JSON 支持功能，以便程序化地解析和呈现更新检查的结果；[skybird](https://github.com/SkyBird233) 也为 Anicca 设计了网页前端，现已提交至 Anicca 仓库供贡献者测试审阅。
 
 ### minipkgsite：迷你软件包信息站
 
