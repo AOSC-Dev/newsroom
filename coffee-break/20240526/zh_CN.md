@@ -66,7 +66,7 @@ oma topics --opt-in linglong-0.15.2-new && oma install linglong
 
 ### 走向全面自动化：安同 OS 软件包自动更新机制初步投产
 
-BuildIt! 在解决构建和分发自动化之余，[傅孝元](https://github.com/)又通过 [autopr](https://github.com/AOSC-Dev/autopr) 实现了从更新探测开始的自动化辅助设施。autopr 可根据由维护者们编写的软件包更新白名单自动探测上游更新、在 [安同 OS 软件包树](https://github.com/AOSC-Dev/aosc-os-abbs) 开启合并请求、自动构建并申请维护者审阅。
+BuildIt! 在解决构建和分发自动化之余，[傅孝元](https://github.com/eatradish)又通过 [autopr](https://github.com/AOSC-Dev/autopr) 实现了从更新探测开始的自动化辅助设施。autopr 可根据由维护者们编写的软件包更新白名单自动探测上游更新、在 [安同 OS 软件包树](https://github.com/AOSC-Dev/aosc-os-abbs) 开启合并请求、自动构建并申请维护者审阅。
 
 这样一来，各类需要频繁更新的简单包，如硬件数据库 [hwdata](https://github.com/vcrhonek/hwdata) 和媒体下载工具 [yt-dlp](https://github.com/yt-dlp/yt-dlp) 等软件包都能得到第一时间的更新操作了——安同开源社区离维护自动化又近了一步。
 
