@@ -135,7 +135,7 @@
 
 上周，[陈嘉杰 (jiegec)](https://github.com/jiegec) 和[傅孝元](https://github.com/eatradish)为 [BuildIt!](https://github.com/AOSC-Dev/buildit) 自动化设施实现了实时监控功能，方便安同 OS 维护者查阅各构建服务器当前构建任务的状态及确定各机器的性能、稳定性状态等。
 
-如果您好奇我们的构建服务器都在忙些啥，欢迎来 [BuildIt! 构建服务器状态主页](https://buildit.aosc.io/workers) 瞅瞅！
+如果您好奇我们的构建服务器都在忙些啥，欢迎来 [BuildIt! 构建服务器状态主页](https://buildit.aosc.io/workers)瞅瞅！
 
 ### aosc-findupdate 0.5.0 发布：新增 UPSTREAM_VER 变量
 
