@@ -4,7 +4,7 @@
 [aosc-os-abbs]: https://github.com/AOSC-Dev/aosc-os-abbs
 [arm64-installer]: https://releases.aosc.io/os-arm64/installer/aosc-os_installer_20240801_arm64.iso
 [ciel]: https://github.com/AOSC-Dev/ciel-rs
-[cyan]: https://github.com/Cyanoxygen
+[cyanoxygen]: https://github.com/Cyanoxygen
 [deepin-osc]: https://www.deepin.org/index/zh
 [dkcli]: https://github.com/AOSC-Dev/dkcli
 [eatradish]: https://github.com/eatradish
@@ -112,7 +112,7 @@ AOSCC 是由安同开源社区诸多社区好友、赞助方的慷慨解囊，�
 
 日前，[王翔 (KatyushaScarlet)][katyushascarlet] 向社区捐赠了一台 MIPS 架构的双路龙芯 3B4000 构建服务器。该服务器搭载 8 个核心及 32GiB 内存，并已开始接收社区自动化设施 BuildIt! 的构建任务。
 
-此外，社区还计划上线来自[统信软件技术有限公司][uniontech]及 [deeepin 社区][deepin-osc]联合捐赠的 MIPS 架构的构建服务器。这些服务器将助力我社安同 OS MIPS 龙芯 3 号发行的维护工作。同时，在星霞 OS 维护重启后，这些服务器还将承载星霞 OS 的龙芯 2F 版本的维护工作。
+此外，社区还计划上线来自[统信软件技术有限公司][uniontech]及 [deepin 社区][deepin-osc]联合捐赠的 MIPS 架构的构建服务器。这些服务器将助力我社安同 OS MIPS 龙芯 3 号发行的维护工作。同时，在星霞 OS 维护重启后，这些服务器还将承载星霞 OS 的龙芯 2F 版本的维护工作。
 
 衷心感谢各位慷慨捐赠和大力支持！
 
@@ -242,7 +242,7 @@ AOSCC 是由安同开源社区诸多社区好友、赞助方的慷慨解囊，�
 
 经过接近两年的审阅、修订及测试工作，图形加速套件 Mesa 的 llvmpipe OrcJIT 及 RISC-V 支持终于成功合并上游。该支持合并后，RISC-V 将可以正常使用由 OrcJIT 加持的软渲染加速。感谢 [Alex Fan](https://github.com/alexfanqi) 及 [Yukari Chiba](https://github.com/YukariChiba) 等贡献者为此上游补丁付出的努力！在此过程中，我社率先在安同 OS 的 Mesa 组件中集成、测试了该支持，并多次提供反馈。
 
-此外，由我社贡献者 [Icenowy Zheng](https://github.com/Icenowy) 实现的[龙架构 llvmpipe OrcJIT 适配](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/30197)及[盘上着色器缓存支持](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/30036)也紧随其后进入上游审阅流程，后续也将为更多发行版长期提供支持（安同 OS 的 Mesa 组件已在过去一段时间对这部分功能进行测试了测试验证）。
+此外，由我社贡献者 [Icenowy Zheng](https://github.com/Icenowy) 实现的[龙架构 llvmpipe OrcJIT 适配](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/30197)及[盘上着色器缓存支持](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/30036)也已合并上游，预计将随 Mesa 24.3 一同发布（安同 OS 的 Mesa 组件已在过去一段时间对这部分功能进行测试了测试验证）。
 
 开发者角
 --------
