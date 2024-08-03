@@ -16,6 +16,7 @@
 [mascot]: https://website-2023.aosc.io/mascot
 [mingcongbai]: https://github.com/MingcongBai
 [p-vector-rs]: https://github.com/AOSC-Dev/p-vector-rs
+[reworkit]: https://github.com/AOSC-Dev/reworkit
 [shankerwangmiao]: https://github.com/shankerwangmiao
 [uniontech]: https://www.uniontech.com/
 [zhaxia-weibo]: https://example.com/
