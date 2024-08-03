@@ -67,7 +67,7 @@ systemctl status postgresqld
 
 [KexyBiscuit][kexybiscuit] 整理了由[陈嘉杰][jiegec]维护的 Chromium 126 补丁集，移除了过期的补丁、并将其余的补丁和上游新增的补丁适配至 Chromium 127 上。
 
-同时，考虑到 LLVM 18 已支持龙架构的 LSX 向量扩展指令集，本次生成中为龙架构（LoongArch64，下同）上的 Clang 开启了 LSX 优化，由此发现了上游一处生成脚本中的缺陷 (https://issues.chromium.org/issues/356038456)，其修复补丁也包含在本次的测试版本中，并已交由上游审阅 (https://chromium-review.googlesource.com/c/chromium/src/+/5740787)。
+同时，考虑到 LLVM 18 已支持龙架构的 LSX 向量扩展指令集，本次生成中为龙架构（LoongArch64，下同）上的 Clang 开启了 LSX 优化，由此发现了上游一处生成脚本中的[缺陷](https://issues.chromium.org/issues/356038456)，其修复补丁也包含在本次的测试版本中，并已交由上游[审阅](https://chromium-review.googlesource.com/c/chromium/src/+/5740787)。
 
 如果您有兴趣测试安同 OS 上的 Chromium 127.0.6533.88，请通过如下命令打开测试源并安装 Chromium。需注意，目前安同 OS 上的 Chromium 仅支持 AMD64 (x86-64) 、AArch64 和龙架构。需注意，命令中的测试源名称是准确的：
 
@@ -75,7 +75,7 @@ systemctl status postgresqld
 sudo oma topics --opt-in chromium-127.0.6533.72 && sudo oma install chromium
 ```
 
-如果您在使用 Chromium 127.0.6533.88 测试版的过程中遇到问题或有疑问及反馈，请通过安同社区各聊天群组或社区论坛以联系我们，或直接前往拉取请求 (https://github.com/AOSC-Dev/aosc-os-abbs/pull/7270)下方留言。感谢各位参与！
+如果您在使用 Chromium 127.0.6533.88 测试版的过程中遇到问题或有疑问及反馈，请通过安同社区各聊天群组或社区论坛以联系我们，或直接前往[拉取请求](https://github.com/AOSC-Dev/aosc-os-abbs/pull/7270)下方留言。感谢各位参与！
 
 
 社区脉动
