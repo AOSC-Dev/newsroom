@@ -257,7 +257,7 @@ AOSCC 是由安同开源社区诸多社区好友、赞助方的慷慨解囊，�
 
 早前，[王邈][shankerwangmiao]提出将安同 OS 的软件包压缩算法由 LZMA (xz) 更换为 ZStandatd (zstd)，以争取更快的压缩和解压缩时间。近日，安同 OS 的维护基础设施套件陆续实现了 Zstd 压缩算法的支持，并将安同 OS 的默认软件包压缩算法更改为 Zstd：
 
-- [aoscbootstrap]aoscbootstrap]: 安同 OS 系统发行生成器
+- [aoscbootstrap][aoscbootstrap]: 安同 OS 系统发行生成器
 - [Ciel][ciel]: 安同 OS 构建容器管理器
 - [p-vector-rs][p-vector-rs]: 安同 OS 软件仓库元数据生成器
 
