@@ -19,7 +19,7 @@
 [reworkit]: https://github.com/AOSC-Dev/reworkit
 [shankerwangmiao]: https://github.com/shankerwangmiao
 [uniontech]: https://www.uniontech.com/
-[zhaxia-weibo]: https://example.com/
+[zhaxia]: https://www.mihuashi.com/profiles/571437
 [zstd]: https://github.com/facebook/zstd
 
 安记冰室・七月下
@@ -93,7 +93,7 @@ AOSCC 是由安同开源社区诸多社区好友、赞助方的慷慨解囊，�
 
 ### AOSCC 2024 纪念品与社区周边发售说明
 
-今年的 AOSCC 周边包含贴纸、帆布袋、T 恤和钥匙扣，融合了诸多社区文化元素，其中包括社区长久以来形成的梗（众人拾柴火焰高）、社区维护龙架构发行期间遇到的轶事（高负载下 AMD 显卡会重置的问题），以及[五十根炸虾][zhaxia-weibo]画师基于[社区吉祥物][mascot]“安安”和“同同”设计的贴纸和表情包。
+今年的 AOSCC 周边包含贴纸、帆布袋、T 恤和钥匙扣，融合了诸多社区文化元素，其中包括社区长久以来形成的梗（众人拾柴火焰高）、社区维护龙架构发行期间遇到的轶事（高负载下 AMD 显卡会重置的问题），以及画师[五十根炸虾][https://www.mihuashi.com/profiles/571437]基于[社区吉祥物][mascot]“安安”和“同同”设计的贴纸和表情包。
 
 由于社区好友们订购社区周边的呼声甚高，我们决定将今年除编织袋外的所有纪念品和周边再版，并以成本价及运费为标准开放订购。
 
