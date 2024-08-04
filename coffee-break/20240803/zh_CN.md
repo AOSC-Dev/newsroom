@@ -101,11 +101,11 @@ AOSCC 是由安同开源社区诸多社区好友、赞助方的慷慨解囊，�
 
 ### 山东大学上线社区软件源服务器镜像
 
-![山东大学（青岛）镜像源上线我社软件仓库服务器镜像](/coffee-break/20240803/imgs/new-mirror-sdu-oops.png)
+<!-- ![山东大学（青岛）镜像源上线我社软件仓库服务器镜像](/coffee-break/20240803/imgs/new-mirror-sdu-oops.png) -->
 
 日前，山东大学（青岛）镜像源上线了我社软件仓库服务器镜像。
 
-该镜像源由山东大学（青岛）学生 Oops 计算机社团负责维护，是在山东大学（青岛）信息化工作办公室指导下立项，由山东大学（青岛）网管会镜像站学生运营团队运营的开源镜像站平台。衷心感谢社团的各位同学的大力支持！
+该镜像源由山东大学镜像站运营团队负责维护，是在山东大学（青岛）信息化工作办公室指导下立项，由山东大学（青岛）网管会镜像站学生运营团队运营的开源镜像站平台。衷心感谢各位同学的大力支持！
 
 ### 持续维护：社区上线多台 MIPS 龙芯三号构建服务器
 
@@ -339,19 +339,19 @@ AOSCC 是由安同开源社区诸多社区好友、赞助方的慷慨解囊，�
 
 请扫描此二维码添加好友**并说明来意：申请加入 AOSC 社区频道。**
 
-![wechat](/coffee-break/20240803/imgs/wechat.png)
+![wechat](/assets/wechat.png)
 
 ### QQ 群
 
-![qq](/coffee-break/20240803/imgs/qq.jpg)
+![qq](/assets/qq.jpg)
 
 ### Telegram 群组
 
-![telegram](/coffee-break/20240803/imgs/telegram.png)
+![telegram](/assets/telegram.png)
 
 ### Discord 语音频道
 
-![discord](/coffee-break/20240803/imgs/discord.png)
+![discord](/assets/discord.png)
 </details>
 
 栏目介绍
