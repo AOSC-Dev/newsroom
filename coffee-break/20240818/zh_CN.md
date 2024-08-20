@@ -164,7 +164,7 @@ ERROR 软件包 networkmanager 是不允许删除的关键组件。
 
 ### 数据工程：ACBS 引入 .srcinfo.json 元数据生成功能
 
-考虑到[软件包信息站](https://packages.aosc.io) 对 Autobuild 软件包信息格式 [APML](https://wiki.aosc.io/developer/automation/apml/) 的解析功能较弱且在解析 Bash 脚本时有实际困难，一些依赖条件较为复杂的软件包信息页会误报不少变量错误，[傅孝元](https://github.com/eatradish) 为 [ACBS](https://github.com/AOSC-Dev/acbs) 加入了通过 `autobuild -p` 一键生成 JSON 格式元数据的功能，以期改善与[软件包信息站](https://packages.aosc.io)的互操作性。
+考虑到[软件包信息站](https://packages.aosc.io)对 Autobuild 软件包信息格式 [APML](https://wiki.aosc.io/developer/automation/apml/) 的解析功能较弱且在解析 Bash 脚本时有实际困难，一些依赖条件较为复杂的软件包信息页会误报不少变量错误，[傅孝元](https://github.com/eatradish)为 [ACBS](https://github.com/AOSC-Dev/acbs) 加入了通过 `autobuild -p` 一键生成 JSON 格式元数据的功能，以期改善与[软件包信息站](https://packages.aosc.io)的互操作性。
 
 我们计划在近期对 ABBS 树中的所有软件包进行一次性数据生成，并后续实现 CI 流程，为每一个合并请求 (Pull Request) 自动生成和更新相关数据。
 
