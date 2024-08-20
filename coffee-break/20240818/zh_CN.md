@@ -115,7 +115,7 @@ ERROR 软件包 networkmanager 是不允许删除的关键组件。
 
 考虑到这一方案可大大降低用户支持成本，并方便用户更自由地选用适合自己经济与性能需要的龙架构设备，我们欢迎且强烈推荐各龙架构“新世界”系统维护者及开发商集成这一兼容方案。为此，[白铭骢](https://github.com/MingcongBai)编写了“旧世界”设备兼容方案的发行注记，欢迎查阅参考。
 
-[“旧世界”设备兼容方案发行注记 >>](https://github.com/AOSC-Dev/newsroom/blob/master/coffee-break/20240818/loongarch64-ow-support.md)
+[“旧世界”设备兼容方案发行注记 >>](/coffee-break/20240818/loongarch64-ow-support.md)
 
 开发者角
 --------
