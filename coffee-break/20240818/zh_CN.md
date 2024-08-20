@@ -50,11 +50,17 @@
 
 ![oma 1.6 特性更新发布：界面、兼容性双升级](/coffee-break/20240818/imgs/oma-slim.png)
 
-近日，[傅孝元](https://github.com/eatradish)发布了小熊猫包管理 (oma) 的 1.6 版，在修复数个兼容性问题的同时，对一部分界面进行了调优，也改善了诸如 WSL (Windows Terminal) 及 TTY 等环境下的使用体验。此外，oma 1.6 还发行了针对 Debian 11/12 及 Ubuntu 20.04/22.04/24.04 的 .deb 安装包，方便用户安装使用。
+近日，[傅孝元](https://github.com/eatradish)发布了小熊猫包管理 (oma) 的 1.6 版，在修复数个兼容性问题的同时，对一部分界面进行了调优，也改善了诸如 Windows Terminal 及 TTY 等环境下的使用体验。此外，oma 1.6 还发行了针对 Debian 及 Ubuntu 的 .deb 安装包，方便用户安装使用；具体来说，oma 支持如下版本的 Debian 和 Ubuntu：
+
+- Debian 11
+- Debian 12
+- Ubuntu 20.04 LTS
+- Ubuntu 22.04 LTS
+- Ubuntu 24.04 LTS
 
 相对于先前的 oma 1.3 系列，oma 1.6 版包含如下主要特性：
 
-- 探测终端背景并自动调整界面配色，确保各种终端配色下oma 界面的对比度
+- 探测终端背景并自动调整界面配色，确保各种终端配色下 oma 界面的对比度
 - 重新设计了 command-not-found 界面，用表格形式更清晰地呈现安装建议
 - 优化 `oma install --reinstall` 行为，在指定 `--reinstall` 参数时自动补全“推荐 (Recommends)”级别的依赖
 - 更改 `oma install` 的默认行为，取消了 `fix-broken`（自动修复依赖问题）行为，修复了安装冲突包时未正确报告依赖错误的问题
@@ -103,7 +109,7 @@ ERROR 软件包 networkmanager 是不允许删除的关键组件。
 
 年初，[王邈](https://github.com/shankerwangmiao)（“坏人”）发布了 [libLoL](https://liblol.aosc.io/) “旧世界”应用程序兼容层，使得用户可以在“新世界”系统上运行当前依然大量流通的“旧世界”商用应用程序（如 WPS 和 QQ、微信等），打通了应用程序层面上的“世界墙”。在解决应用程序层面的兼容难题后，[王邈](https://github.com/shankerwangmiao)便将目光转向应用生态以下的固件与引导兼容问题。
 
-七月底，[王邈](https://github.com/shankerwangmiao)与[白铭骢](https://github.com/MingcongBai)等人从引导器 (GRUB) 及内核层面着手实现了“旧世界”固件兼容性，并调整了管理界面，方便用户们双启动“新世界”（如安同 OS、deepin 和 Loong Arch Linux）和“旧世界”（如 Loongnix 和 UOS）操作系统。这兼容性方案已在多款龙芯三号设备验证通过：
+七月底，[王邈](https://github.com/shankerwangmiao)与[白铭骢](https://github.com/MingcongBai)等人从引导器 (GRUB) 及内核层面着手实现了“旧世界”固件兼容性，并调整了管理界面，方便用户们双启动“新世界”（如安同 OS、deepin 和 Loong Arch Linux）和“旧世界”（如 Loongnix 和统信 UOS）操作系统。这兼容性方案已在多款龙芯三号设备验证通过：
 
 - 台式机：联想开天 M540z（龙芯 3A5000）
 - 台式机：航天龙梦 ML5A（龙芯 3A5000）
@@ -111,7 +117,7 @@ ERROR 软件包 networkmanager 是不允许删除的关键组件。
 - 笔记本：清华同方超锐 L860-T2（龙芯 3A5000M）
 - 服务器：国光 GS6000L-4C5L（龙芯 3C5000L，四路）
 
-根据上述测试结果，我们相信所有龙芯三号“旧世界”设备已可以正常启动安同 OS 等新世界操作系统。此外，安同 OS 的20240801 版安装盘及 deepin V23 正式版已集成该兼容方案。
+根据上述测试结果，我们相信所有龙芯三号“旧世界”设备已可以正常启动安同 OS 等新世界操作系统。此外，安同 OS 的 20240801 版安装盘及 deepin V23 正式版已集成该兼容方案。
 
 考虑到这一方案可大大降低用户支持成本，并方便用户更自由地选用适合自己经济与性能需要的龙架构设备，我们欢迎且强烈推荐各龙架构“新世界”系统维护者及开发商集成这一兼容方案。为此，[白铭骢](https://github.com/MingcongBai)编写了“旧世界”设备兼容方案的发行注记，欢迎查阅参考。
 
@@ -204,11 +210,9 @@ ERROR 软件包 networkmanager 是不允许删除的关键组件。
 
 此外，欢迎新加入我社贡献者行列的新人，愿合作愉快，共同进步：
 
-- [lwzhenglittle](https://github.com/lwzhenglittle)
+- [lwzheng](https://github.com/lwzhenglittle)
 - [日落果](https://github.com/purofle)
-- [Ziyao](https://github.com/ziyao233)
-
-此外，欢迎新加入我社贡献者行列的新人，愿合作愉快，共同进步：
+- [梓瑶](https://github.com/ziyao233)
 
 一起吹水
 --------
