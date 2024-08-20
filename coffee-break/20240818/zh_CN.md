@@ -59,7 +59,7 @@
 - 优化 `oma install --reinstall` 行为，在指定 `--reinstall` 参数时自动补全“推荐 (Recommends)”级别的依赖
 - 更改 `oma install` 的默认行为，取消了 `fix-broken`（自动修复依赖问题）行为，修复了安装冲突包时未正确报告依赖错误的问题
 - 修缮简单软件源 (flat repository) 的刷新支持，行为上与 APT 无限接近
-- 新增 `file:/` 与 `file:///` 协议的本地源支持
+- 新增 oma 测试源管理器 (`oma topics`) 对 `file:/` 与 `file:///` 协议的支持
 - 修整了进度条布局对齐，下载界面更为整洁
 - 新增在无 256 色的终端环境下使用标准终端主题（16 色）配色的支持
 
