@@ -52,11 +52,11 @@
 
 近日，[傅孝元](https://github.com/eatradish)发布了小熊猫包管理 (oma) 的 1.6 版，在修复数个兼容性问题的同时，对一部分界面进行了调优，也改善了诸如 Windows Terminal 及 TTY 等环境下的使用体验。此外，oma 1.6 还发行了针对 Debian 及 Ubuntu 的 .deb 安装包，方便用户安装使用；具体来说，oma 支持如下版本的 Debian 和 Ubuntu：
 
-- Debian 11
 - Debian 12
-- Ubuntu 20.04 LTS
-- Ubuntu 22.04 LTS
+- Debian 11
 - Ubuntu 24.04 LTS
+- Ubuntu 22.04 LTS
+- Ubuntu 20.04 LTS
 
 相对于先前的 oma 1.3 系列，oma 1.6 版包含如下主要特性：
 
