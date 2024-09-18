@@ -42,7 +42,7 @@
 
 ### 集社区之精华：安同 OS 发布九月发行更新
 
-![庆中秋，安同 OS 发布九月发行更新](/coffee-break/20240918/imgs/mid-autumn-aosc-os.png)
+![庆中秋，安同 OS 发布九月发行更新](/coffee-break/20240918/imgs/mid-autumn-aosc-os-slim.png)
 
 新一批安同 OS 系统发行更新来啦！
 
