@@ -107,10 +107,10 @@ oma topics --opt-in ffmpeg-7.0
 ```
 
 如果您在加入本测试源后遇到了问题，欢迎通过文末的各联系方式与我们联系！
- 
+
 ### WSL 安同 OS 发布 11.5.2 版更新
 
-近日，[Kexy Biscuit](https://github.com/KexyBiscuit) 发布了 WSL 安同 OS 的 11.5.2 版，包含近期发布的各类系统更新与修复（详细变更可参阅本期“集社区之精华：安同 OS 发布九月发行更新”一节的内容）。
+近日，[Kexy Biscuit（百合ヶ咲るる）](https://github.com/KexyBiscuit)发布了 WSL 安同 OS 的 11.5.2 版，包含近期发布的各类系统更新与修复（详细变更可参阅本期“集社区之精华：安同 OS 发布九月发行更新”一节的内容）。
 
 如果您日常使用 Windows 工作，相信安同 OS 能为您的生产力环境添彩。
 
@@ -119,14 +119,14 @@ oma topics --opt-in ffmpeg-7.0
 
 ### aosc-mklive 更新：离线安装盘支持、综合修复及安全性优化
 
-由于安同 OS “不拆包” 的特性，安同 OS 的安装盘体积过于庞大，且没有包含系统包，常受用户诟病。数月前，[白铭骢](https://github.com/MingcongBai)提出利用分层文件系统 OverlayFS 实现集成系统包的安装介质的构想，[杨欣辉](https://github.com/Cyanoxygen)随后开始探索其实现，[Kexy Biscuit](https://github.com/KexyBiscuit) 在此期间积极测试并提供了诸多反馈。
+由于安同 OS “不拆包” 的特性，安同 OS 的安装盘体积过于庞大，且没有包含系统包，常受用户诟病。数月前，[白铭骢](https://github.com/MingcongBai)提出利用分层文件系统 OverlayFS 实现集成系统包的安装介质的构想，[杨欣辉](https://github.com/Cyanoxygen)随后开始探索其实现。
 
 经过三个月的开发及测试，安同 OS 安装盘生成套件 [aosc-mklive](https://github.com/AOSC-Dev/aosc-mklive) 终于迎来了集成系统包的离线安装盘支持，同时正式发布第一批安同 OS 离线安装盘。新的安装盘利用 OverlayFS 的叠加机制，尽可能抽离了共用的系统组件，并利用 SquashFS 实现较高的压缩率，提高发行空间效率。与此同时，基于 EROFS 文件系统的安装盘也在积极开发及测试中，预计基于 EROFS 的安装盘相对于 SquashFS 启动、安装速度更快，使用体验更佳。
 
-发布前夕，[Kexy Biscuit](https://github.com/KexyBiscuit) 在测试安装盘时发现大量可用性及安全性问题，其中包括前文提到的 SSH 主机密钥问题。自上次发布的 20240801 版安装盘以来，本次发布的安装盘主要包含如下变更：
+发布前夕，[Kexy Biscuit（百合ヶ咲るる）](https://github.com/KexyBiscuit)在测试安装盘时发现大量可用性及安全性问题，其中包括前文提到的 SSH 主机密钥问题。自上次发布的 20240801 版安装盘以来，本次发布的安装盘主要包含如下变更：
 
 - 支持龙架构旧世界固件引导安同 OS 安装盘
-- 修复带有 Optimus 功能的多显卡设备支持
+- 修复带有 Optimus（带有核显及 NVIDIA 独显的双显卡设备）功能的多显卡设备支持
 - 以基于新 DeployKit 后端编写的新命令行安装程序 [dkcli](https://github.com/AOSC-Dev/dkcli) 取代旧的命令行安装程序
 - 为安装及试用环境禁用屏幕节电及自动睡眠等电源功能，避免产生意外故障
 - 采取措施避免生成安装盘时预生成 SSH 主机密钥
@@ -144,21 +144,21 @@ oma topics --opt-in ffmpeg-7.0
 
 作为安同 OS 自动化维护设施的核心组件，[BuildIt!](https://github.com/AOSC-Dev/buildit) 的使用体验及功能颇受贡献者关注。
 
-日前，[Kexy Biscuit](https://github.com/KexyBiscuit) 修复了几个参数名冲突的问题，[傅孝元](https://github.com/eatradish)通过增加进程锁修复了 `/openpr` 命令执行时的潜在竞态条件，并更新 `abbs-update-checksum` 组件，修复了多源码配置的解析（`/bump` 功能）。此外，根据贡献者请求，[白铭骢](https://github.com/MingcongBai)根据 Git 分支及引用名规则，将 `_` 字符加入了分支名字符白名单中。
+日前，[Kexy Biscuit（百合ヶ咲るる）](https://github.com/KexyBiscuit)修复了几个参数名冲突的问题；[傅孝元](https://github.com/eatradish)通过增加线程修复了 `/openpr` 命令执行时的潜在竞态条件，并更新 `abbs-update-checksum` 组件，修复了多源码配置的解析（`/bump` 功能）。此外，根据贡献者请求，[白铭骢](https://github.com/MingcongBai)根据 Git 分支及引用名规则，将 `_` 字符加入了分支名字符白名单中。
 
-### p-vector-rs 0.6.0 发布：改善 Debian 源支持、新增 Zstd 元数据压缩支持
+### p-vector-rs 0.6.0 发布：改善 Debian 源支持，新增 Zstd 元数据压缩支持
 
-在搭建 oma 的 Debian/Ubuntu 更新源的过程中，安同 OS 维护者发现了数个 [p-vector-rs](https://github.com/AOSC-Dev/p-vector-rs)（APT 软件源刷新与发布工具）中的兼容性问题。为此，[傅孝元](https://github.com/eatradish)与[刘子兴](https://github.com/liushuyu)提交数个补丁，修复了 Debian 软件包元数据文件（如 `control`）不在 `DEBIAN/` 子目录下时刷新出错及部分文件没有记录 UID/GID 时无法完成刷新的问题。
+在搭建 oma 的 Debian/Ubuntu 更新源的过程中，安同 OS 维护者发现了数个 [p-vector-rs](https://github.com/AOSC-Dev/p-vector-rs)（APT 软件源刷新与发布工具）中的兼容性问题。为此，[傅孝元](https://github.com/eatradish)与[刘子兴](https://github.com/liushuyu)提交数个补丁，修复了 Debian 软件包元数据文件（如 `control`）存放于在 `debian/` 子目录下时刷新出错及部分文件没有记录 UID/GID 时无法完成刷新的问题。
 
-作为 0.6.0 版更新的一部分，[傅孝元](https://github.com/eatradish)还为 `Contents` 元数据文件（软件包内容数据库）引入了 Zstd 压缩支持，可显著降低用户刷新软件源数据的耗时。
+作为 0.6.0 版更新的一部分，[傅孝元](https://github.com/eatradish)还为 `Contents` 元数据文件（软件包内容数据库）引入了 Zstd 压缩支持，可显著降低用户刷新软件源数据的耗时，亦可改善及使用诸如 `oma provides/file` 命令检索软件包内容的响应速度。
 
 ### aoscbootstrap 0.7.3 发布：细节修缮
 
 针对本次系统发行更新发布前遇到的问题，我们为 [aoscbootstrap](https://github.com/AOSC-Dev/aoscbootstrap)（安同 OS 系统根及发行包生成工具集）提交了数个修复，并发布了 0.7.3 版。
 
-其中，[Kexy Biscuit](https://github.com/KexyBiscuit) 修缮了 `.sha256sum` 文件的写入逻辑，使其内容与 GNU Coreutils 中对应工具生成的内容一致（先前无法使用 `sha256sum -c` 命令直接进行校验）；[白铭骢](https://github.com/MingcongBai)为清理脚本新增了 SSH 主机密钥的清理逻辑，解决前文提到的密钥泄漏问题。
+其中，[Kexy Biscuit（百合ヶ咲るる）](https://github.com/KexyBiscuit)修缮了 `.sha256sum` 文件的写入逻辑，使其内容与 GNU Coreutils 中对应工具生成的内容一致（先前无法使用 `sha256sum -c` 命令直接进行校验）；[白铭骢](https://github.com/MingcongBai)为清理脚本新增了 SSH 主机密钥的清理逻辑，解决前文提到的密钥泄漏问题。
 
-### abbs-update-checksum 0.2.2 发布：修复多源码配置解析、优化 spec 查询逻辑
+### abbs-update-checksum 0.2.3 发布：修复多源码配置解析及 SourceForge 源码下载，优化 spec 查询逻辑
 
 [abbs-update-checksum](https://github.com/AOSC-Dev/abbs-update-checksum) 作为安同 OS 自动化设施的一部分，协助 [BuildIt!](https://github.com/AOSC-Dev/buildit) 在 `/bump` 命令过程中刷新源码校验和（亦可直接作为工具使用）。
 
@@ -167,6 +167,16 @@ oma topics --opt-in ffmpeg-7.0
 - 在软件包树找到第一个匹配 `spec` 时便停止遍历，改善工具响应速度
 - 修复刷新多源码 `spec` 时未正确写入对应校验和的问题
 - 修复 `-t` (`--tree`) 和 `-t` (`--threads`) 段参数名冲突的问题，新版中 `-t` 为 `--tree` 的别名
+- 避免设置 HTTP 请求头 (Request Header) 中的 Referer，以规避 SourceForge 源码错误下载到重定向网页的问题
+
+### 《软件包样式指南》修订：新增源码包来源及 SourceForge URL 使用规范
+
+根据近期调试 [abbs-update-checksum](https://github.com/AOSC-Dev/abbs-update-checksum) 下载 SourceForge 源码包时遇到的困难及调查结果（见上），[Kexy Biscuit（百合ヶ咲るる）](https://github.com/KexyBiscuit)提出如下两条关于 `SRCS=` 条目的规范要求：
+
+- 源码包来源：在可能的情况下尽可能使用官方推荐的源站或自动重定向设施，避免使用特定镜像站
+- SourceForge 源码包：遵从[官方指引](https://sourceforge.net/p/forge/documentation/Downloading%20files%20via%20the%20command%20line/)，在源码 URL 末尾保留 /download，如：tbl::https://sourceforge.net/projects/wqy/files/wqy-microhei/${UPSTREAM_VER}/wqy-microhei-${UPSTREAM_VER}.tar.gz/download"
+
+如上两条新要求将用于后续拉取请求 (Pull Request) 的审阅。
 
 ### 红花榜
 
@@ -185,7 +195,7 @@ oma topics --opt-in ffmpeg-7.0
 - [Ivan Maidanski](https://github.com/ivmai)
 - [陈嘉杰 (jiegec)](https://github.com/jiegec)
 - [王翔 (KatyushaScarlet)](https://github.com/KatyushaScarlet)
-- [Kexy Biscuit](https://github.com/KexyBiscuit)
+- [Kexy Biscuit（百合ヶ咲るる）](https://github.com/KexyBiscuit)
 - [leavelet](https://github.com/leavelet)
 - [刘子兴](https://github.com/liushuyu)
 - [lwzhenglittle](https://github.com/lwzhenglittle)
