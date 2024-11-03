@@ -262,7 +262,7 @@ CHKUPDATE="anitya::id=7995"
 
 维护发行版仓库，怎能少得了断舍离？
 
-在某个软件失去维护，维护者失去耐心时，安同 OS 往往会选择抛弃某个软件包的维护。那么，要怎样简化“给软件包办退休”的过程呢？[千须末 (OriginCode)](https://github.com/OriginCode) 和[张丙戊](https://github.com/xtexChooser)给出了各自的答案——二者目标一致，但工作模式相反：
+在某个软件失去维护，维护者失去耐心时，安同 OS 往往会选择抛弃某个软件包的维护。那么，要怎样简化“给软件包办退休”的过程呢？[繁杂绪 (OriginCode)](https://github.com/OriginCode) 和[张丙戊](https://github.com/xtexChooser)给出了各自的答案——二者目标一致，但工作模式相反：
 
 - [pkg-prune.rkt](https://github.com/AOSC-Dev/scriptlets/blob/master/pkg-prune.rkt)，使用 Racket 实现；该工具用于在删除某个软件包时，以之作为端点，递归清理因删除该软件包后新增的，无逆向依赖的软件包
 - [dropit](https://github.com/AOSC-Dev/scriptlets/tree/master/dropit)，使用 Bash 实现；与 [pkg-prune.rkt](https://github.com/AOSC-Dev/scriptlets/blob/master/pkg-prune.rkt) 相反，该工具在从 [aosc-os-abbs](https://github.com/AOSC-Dev/aosc-os-abbs) 等打包脚本树中删除某个软件包时，同时查询其反向依赖并一并提交删除
@@ -294,7 +294,7 @@ dpkg 包管理以其对可靠性的重视著称，其中一环便是在安装、
 - [leavelet](https://github.com/leavelet)
 - [刘子兴](https://github.com/liushuyu)
 - [白铭骢](https://github.com/MingcongBai)
-- [千须末 (OriginCode)](https://github.com/OriginCode)
+- [繁杂绪 (OriginCode)](https://github.com/OriginCode)
 - [ouankou](https://github.com/ouankou)
 - [Outvi V](https://github.com/outloudvi)
 - [SignKirigami](https://github.com/prcups)
