@@ -301,6 +301,7 @@ dpkg 包管理以其对可靠性的重视著称，其中一环便是在安装、
 - [王江津](https://github.com/RedL0tus)
 - [Rick Liu](https://github.com/rickliu2000)
 - [王邈](https://github.com/shankerwangmiao)
+- [Sharelter](https://github.com/Sharelter)
 - [shatian114](https://github.com/shatian114)
 - [SkyBird233](https://github.com/SkyBird233)
 - [Student Main](https://github.com/stdmnpkg)
@@ -316,7 +317,6 @@ dpkg 包管理以其对可靠性的重视著称，其中一环便是在安装、
 - [lunzima](https://github.com/lunzima)
 - [Alan Lin](https://github.com/miwu04)
 - [pch666777](https://github.com/pch666777)
-- [Sharelter](https://github.com/Sharelter)
 - [🍉](https://github.com/suica-me)
 - [wxiwnd](https://github.com/wxiwnd)
 
