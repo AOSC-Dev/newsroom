@@ -147,7 +147,7 @@ oma install gfxreconstruct
 
 ![图形化 .deb 软件包安装向导](/coffee-break/20241206/imgs/deb-installer.png)
 
-尽管安同 OS 存在能够直接安装第三方发布的 `.deb` 软件包的 Spiral 泛 Debian 软件包兼容性，用户依然需要启动终端模拟器手动输入 `oma isntall` 命令安装下载的 `.deb` 软件包。需要终端才能安装软件包的行为，让大多数对终端操作不熟悉或不敢使用终端操作的用户望而却步。
+尽管安同 OS 存在能够直接安装第三方发布的 `.deb` 软件包的 Spiral 泛 Debian 软件包兼容性，用户依然需要启动终端模拟器手动输入 `oma install` 命令安装下载的 `.deb` 软件包。需要终端才能安装软件包的行为，让大多数对终端操作不熟悉或不敢使用终端操作的用户望而却步。
 
 为了增进安装第三方软件包的体验，[傅孝元](https://github.com/eatradish)开发了一款图形界面的[软件包安装向导](https://github.com/AOSC-Dev/deb-installer)。该向导能够让用户在文件管理器双击安装下载的 `.deb` 软件包，就像在 Windows 中安装软件一样，使得安装软件包的操作方便快捷。
 
