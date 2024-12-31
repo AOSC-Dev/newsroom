@@ -35,7 +35,7 @@
 ![山大《校园行》活动现场](/coffee-break/20241231/imgs/campus-event-sdu.jpg)
 > 山大《校园行》活动现场
 
-在山大，我社内核维护者 [Kexy Biscuit（百合ヶ咲るる）](https://github.com/KexyBiscuit) 以安同 OS 为例，介绍了发行版内核的维护策略与挑战；来自龙芯中科教育事业部的张曦介绍了龙架构指令集的基础设计和竞赛资源；[白铭骢](https://github.com/MingcongBai)分享了多架构发行版维护的基础概念、矛盾与未来展望。
+在山大，我社内核维护者 [Kexy Biscuit（百合ヶ咲るる）](https://github.com/KexyBiscuit) 以安同 OS 为例，介绍了 Linux 发行版内核的维护策略与挑战；来自龙芯中科教育事业部的张曦介绍了龙架构指令集的基础设计和竞赛资源；[白铭骢](https://github.com/MingcongBai)分享了多架构发行版维护的基础概念、矛盾与未来展望。
 
 ![西电《校园行》暨西电开源社区年度分享会现场合影](/coffee-break/20241231/imgs/campus-event-xdu.jpg)
 > 西电《校园行》暨西电开源社区年度分享会现场合影
@@ -71,7 +71,7 @@
 
 本次发布的 1.13 更新包含近 20 个新特性。其中，我们针对审阅界面及内容阅读器进行了界面优化和强化，并对测试源选择界面 (oma topics) 进行了清理。
 
-针对安同 OS，我们引入了更新元数据 (Topic Update Manifest) 规范的支持，可对关键系统更新进行概括化、更为人性化的展示。针对 Debian 系发行版，我们引入了对 multiarch 及 Ubuntu Pro 等专属特性的支持，并针对其依赖树复杂度导致的性能问题进行了针对性优化。
+针对安同 OS，我们引入了[更新元数据 (Topic Update Manifest)](https://wiki.aosc.io/zh/developer/packaging/topic-update-manifest/) 规范的支持，可对关键系统更新进行概括化、更为人性化的展示。针对 Debian 系发行版，我们引入了对 multiarch 及 Ubuntu Pro 等专属特性的支持，并针对其依赖树复杂度导致的性能问题进行了针对性优化。
 
 如上所述，oma 1.13 是我们对易用性和性能持续关注和改善的成果——让我们一起了解本次 oma 特性更新带来的各种新功能和修复吧！
 
@@ -101,7 +101,7 @@ oma install vscodium
 
 ### ELF 功能增强：Autobuild 4.7
 
-近日，[刘子兴](https://github.com/liushuyu) 发布了安同 OS 打包系统 [Autobuild](https://github.com/AOSC-Dev/autobuild4) 的 4.7 版。该版本包含诸多方面的改进：
+近日，[刘子兴](https://github.com/liushuyu)发布了安同 OS 打包系统 [Autobuild](https://github.com/AOSC-Dev/autobuild4) 的 4.7 版。该版本包含诸多方面的改进：
 
 - 使用 ELF 文件处理库 `libelf` 解析二进制文件，相对先前的自定义实现更为可靠，可解决先前时常出现的 ELF 处理时 Autobuild 崩溃的问题
 - 将默认 Python 解释器设置为 `/usr/bin/python3`，可更好适配当前主流软件构建系统的需求
