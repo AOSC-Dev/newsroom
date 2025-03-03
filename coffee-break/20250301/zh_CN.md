@@ -67,7 +67,7 @@ AOSC Automatic Redirect Mirror [TESTING] (Global) (redir)
 - 华南：[南京大学开源镜像站](https://mirrors.nju.edu.cn/)
 - 西北：[兰州大学开源社区镜像站](https://mirror.lzu.edu.cn/)
 - 华北：[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
-- 东中：[南阳理工学院开源镜像站](https://mirror.nyist.edu.cn/)
+- 华中：[南阳理工学院开源镜像站](https://mirror.nyist.edu.cn/)
 - 东北：[吉林大学开源镜像站](http://mirrors.jlu.edu.cn/)
 
 目前该系统已初步于 [redir.aosc.io](https://redir.aosc.io/) 上线（后续将替代原 [repo.aosc.io](https://repo.aosc.io/) 的部分请求响应），感谢上述各位高校镜像源管理方的大力支持！
