@@ -1,6 +1,10 @@
 社区资讯库 / Newsroom
 ===================
 
+> 已归档：期刊将直接通过 [website-2023](https://github.com/AOSC-Dev/website-2023) 发布和维护。
+> 
+> Archived: Future editions will be published and maintained via [website-2023](https://github.com/AOSC-Dev/website-2023).
+
 本仓库用于存放编辑中和已发布的社区新闻，如双周报、专题和访谈等栏目的文字稿，面向社区门户和各语言公众媒体平台。
 
 This repository stores community newsletters, special issues, interviews, etc. bound for mass media platforms in various languages.
